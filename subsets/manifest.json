@@ -1,0 +1,1074 @@
+{
+  "schema_version": 1,
+  "phase": "P0_CPU_ONLY",
+  "source_episode_ids": [
+    1283,
+    1287,
+    1289,
+    1299,
+    1310,
+    1315,
+    1316,
+    1317,
+    1320,
+    1345,
+    1353,
+    1354,
+    1358,
+    1377,
+    1380,
+    1383,
+    1385,
+    1426,
+    1428,
+    1432,
+    1440,
+    1442,
+    1445,
+    1455,
+    1460,
+    1466,
+    1478,
+    1479,
+    1483,
+    1509,
+    1510,
+    1514,
+    1545,
+    1549,
+    1556,
+    1557,
+    1573,
+    1603,
+    1622,
+    1641,
+    1652,
+    1657,
+    1665,
+    1668,
+    1682,
+    1686
+  ],
+  "source_frame_count": 5343,
+  "dataset_revision": "86958911c0f959db2bbbdb107eb3e17c5f9c798e",
+  "base_model_revision": "c83c3163b8ca9b7e67c509fffd9121e66cb96205",
+  "base_model_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+  "input_json_sha256": "f67d6519193b631554d4d594ca3f881741998a7fced80cd9ca96817f590faff1",
+  "train_config_sha256": "e8831e4c81cc35918f004d849ac616151c370dccdf2f26827fbc92832663cdae",
+  "old_shard_manifest_sha256": "60682c35ef049425940f5f4906bbab1712ed605d0bcf11590f0617e62c80b240",
+  "task": "pick up the black bowl from table center and place it on the plate",
+  "task_index": 38,
+  "camera_keys": [
+    "observation.images.image",
+    "observation.images.image2"
+  ],
+  "image_shape_hwc": [
+    256,
+    256,
+    3
+  ],
+  "all_selected_images_decoded": 10686,
+  "state_dim": 8,
+  "action_dim": 7,
+  "variance_ddof": 0,
+  "statistics_accumulation_dtype": "float64",
+  "visual_normalization": "IDENTITY",
+  "source_shards": [
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-311.parquet",
+      "sha256": "31524b714b17ffbd953acd9688040c923e18ef70b8a1d378f58c891be8a0c061",
+      "bytes": 89416566,
+      "all_episode_ids": [
+        1280,
+        1281,
+        1282,
+        1283,
+        1284,
+        1285
+      ],
+      "selected_episode_ids": [
+        1283
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-312.parquet",
+      "sha256": "0712b52f923a24a6e3ceb8cbd347cd69e33792276a16c099c799703f825947e1",
+      "bytes": 90670894,
+      "all_episode_ids": [
+        1286,
+        1287,
+        1288,
+        1289,
+        1290,
+        1291
+      ],
+      "selected_episode_ids": [
+        1287,
+        1289
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-314.parquet",
+      "sha256": "a0db9954708317dc9a9e81c934c922c0d1e6bd73e9ec181ed967b6e5915beb08",
+      "bytes": 96898179,
+      "all_episode_ids": [
+        1298,
+        1299,
+        1300,
+        1301,
+        1302,
+        1303
+      ],
+      "selected_episode_ids": [
+        1299
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-316.parquet",
+      "sha256": "80daf54676a973c6b286f65dc21367c88c4ad3ccdb9567b74364382646583dfe",
+      "bytes": 104559751,
+      "all_episode_ids": [
+        1310,
+        1311,
+        1312,
+        1313,
+        1314,
+        1315,
+        1316
+      ],
+      "selected_episode_ids": [
+        1310,
+        1315,
+        1316
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-317.parquet",
+      "sha256": "6dbf0b13e20a5a64cb8b90712537e747a9e44bc01f62eae07f14dd0b09d7f368",
+      "bytes": 103283048,
+      "all_episode_ids": [
+        1317,
+        1318,
+        1319,
+        1320,
+        1321,
+        1322,
+        1323
+      ],
+      "selected_episode_ids": [
+        1317,
+        1320
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-321.parquet",
+      "sha256": "cb08e9faba2e3453a28f7fb23b72e47b59aeff9a8c5370fd25d5265d2c5ec043",
+      "bytes": 99379013,
+      "all_episode_ids": [
+        1342,
+        1343,
+        1344,
+        1345,
+        1346,
+        1347,
+        1348
+      ],
+      "selected_episode_ids": [
+        1345
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-322.parquet",
+      "sha256": "665cdc82c5e85017e5bdfc33b938ae731ba677a4d21e77d878d9a72087db03f5",
+      "bytes": 93699169,
+      "all_episode_ids": [
+        1349,
+        1350,
+        1351,
+        1352,
+        1353,
+        1354
+      ],
+      "selected_episode_ids": [
+        1353,
+        1354
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-323.parquet",
+      "sha256": "4494d651e2a959354895f6dc4dbc9e31f6a68a8e7e6341670fce2d2b4b64646e",
+      "bytes": 93320307,
+      "all_episode_ids": [
+        1355,
+        1356,
+        1357,
+        1358,
+        1359,
+        1360
+      ],
+      "selected_episode_ids": [
+        1358
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-326.parquet",
+      "sha256": "fc2b7251b8fe44ef08665597c720adf2be54403adb180606f8dea371edb4083c",
+      "bytes": 97629145,
+      "all_episode_ids": [
+        1373,
+        1374,
+        1375,
+        1376,
+        1377,
+        1378
+      ],
+      "selected_episode_ids": [
+        1377
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-327.parquet",
+      "sha256": "65a70bbdacb977745bdb09ffbb336f32cd52393f1fb03e5cddfa022682f2c4cc",
+      "bytes": 98520140,
+      "all_episode_ids": [
+        1379,
+        1380,
+        1381,
+        1382,
+        1383,
+        1384,
+        1385
+      ],
+      "selected_episode_ids": [
+        1380,
+        1383,
+        1385
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-334.parquet",
+      "sha256": "c062d24113914dccf2f8766a1e5af56f6504e3348248e71d9669fc8592677c71",
+      "bytes": 88774360,
+      "all_episode_ids": [
+        1424,
+        1425,
+        1426,
+        1427,
+        1428,
+        1429
+      ],
+      "selected_episode_ids": [
+        1426,
+        1428
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-335.parquet",
+      "sha256": "1d65c7f43712b128c2ba428686de1a86563607a3810a6c451a65489dbdedc510",
+      "bytes": 89272501,
+      "all_episode_ids": [
+        1430,
+        1431,
+        1432,
+        1433,
+        1434
+      ],
+      "selected_episode_ids": [
+        1432
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-336.parquet",
+      "sha256": "851244d41bf1c78799e963816710fa0d5c17f84433be0b19e284ae08a3ade4b7",
+      "bytes": 89505943,
+      "all_episode_ids": [
+        1435,
+        1436,
+        1437,
+        1438,
+        1439,
+        1440
+      ],
+      "selected_episode_ids": [
+        1440
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-337.parquet",
+      "sha256": "f4b1eb7946df179d1c92741d71ef1b08d7ac6add31f0ef04dd99205b006c96f3",
+      "bytes": 94054516,
+      "all_episode_ids": [
+        1441,
+        1442,
+        1443,
+        1444,
+        1445,
+        1446
+      ],
+      "selected_episode_ids": [
+        1442,
+        1445
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-339.parquet",
+      "sha256": "7eca7d9d2947562a23d78ad1f4df742a18bc5550b2545cf54447ce5515871119",
+      "bytes": 104281037,
+      "all_episode_ids": [
+        1454,
+        1455,
+        1456,
+        1457,
+        1458,
+        1459,
+        1460
+      ],
+      "selected_episode_ids": [
+        1455,
+        1460
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-340.parquet",
+      "sha256": "be3034d8d1f76693e4e394d7f63a7fad12e5b77e32879cb07c0a3da83c0bbe53",
+      "bytes": 93629193,
+      "all_episode_ids": [
+        1461,
+        1462,
+        1463,
+        1464,
+        1465,
+        1466
+      ],
+      "selected_episode_ids": [
+        1466
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-342.parquet",
+      "sha256": "b83d42c36dd2c562e0fb72be69e2f16b69ce60dc1b10024b1ae9e6f39774b766",
+      "bytes": 96782359,
+      "all_episode_ids": [
+        1474,
+        1475,
+        1476,
+        1477,
+        1478,
+        1479
+      ],
+      "selected_episode_ids": [
+        1478,
+        1479
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-343.parquet",
+      "sha256": "dda9b82b28def689c9c78c25fa08ccf2ee2d4a28b81cec2e7a65691b47a8c74f",
+      "bytes": 93373249,
+      "all_episode_ids": [
+        1480,
+        1481,
+        1482,
+        1483,
+        1484,
+        1485
+      ],
+      "selected_episode_ids": [
+        1483
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-347.parquet",
+      "sha256": "1360807513ff84030d415491f2fe33f191970bb95831b9b6d836dfdcad23379d",
+      "bytes": 101437341,
+      "all_episode_ids": [
+        1505,
+        1506,
+        1507,
+        1508,
+        1509,
+        1510,
+        1511
+      ],
+      "selected_episode_ids": [
+        1509,
+        1510
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-348.parquet",
+      "sha256": "4397415b1f760497739a95e8fb849632a6f7934f3179175361bede896da8d5ca",
+      "bytes": 94083919,
+      "all_episode_ids": [
+        1512,
+        1513,
+        1514,
+        1515,
+        1516,
+        1517
+      ],
+      "selected_episode_ids": [
+        1514
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-353.parquet",
+      "sha256": "261f3a19b6c02221e0c1c1590bebc73547b028137ebbf177807b014ad7f43b71",
+      "bytes": 96228867,
+      "all_episode_ids": [
+        1542,
+        1543,
+        1544,
+        1545,
+        1546,
+        1547
+      ],
+      "selected_episode_ids": [
+        1545
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-354.parquet",
+      "sha256": "08cb2f88988c31b6f01bbe7b5062ce153f5739f9eb82dce7f4bd88d004e38e68",
+      "bytes": 103604546,
+      "all_episode_ids": [
+        1548,
+        1549,
+        1550,
+        1551,
+        1552,
+        1553,
+        1554
+      ],
+      "selected_episode_ids": [
+        1549
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-355.parquet",
+      "sha256": "5cbdf88fc9172499d17efe84051371d6277300ade5f2f919db38d1994e9b4392",
+      "bytes": 98831189,
+      "all_episode_ids": [
+        1555,
+        1556,
+        1557,
+        1558,
+        1559,
+        1560,
+        1561
+      ],
+      "selected_episode_ids": [
+        1556,
+        1557
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-357.parquet",
+      "sha256": "8e44f0bbbfefe1dca1bead2e9a1be5ede67b6eba9b0d2aa47f67d560b2b47e7b",
+      "bytes": 101920966,
+      "all_episode_ids": [
+        1569,
+        1570,
+        1571,
+        1572,
+        1573,
+        1574,
+        1575
+      ],
+      "selected_episode_ids": [
+        1573
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-362.parquet",
+      "sha256": "aa1bb02313f6a03adc932d1bc75801f5b4144bb82b3e8ddb250cd8bb84c9b4fe",
+      "bytes": 103072146,
+      "all_episode_ids": [
+        1601,
+        1602,
+        1603,
+        1604,
+        1605,
+        1606,
+        1607
+      ],
+      "selected_episode_ids": [
+        1603
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-365.parquet",
+      "sha256": "4fccc640f47492e0dc401c00fd48e5a366666b1f677ff13e4bd3d15ed76f672a",
+      "bytes": 98978157,
+      "all_episode_ids": [
+        1621,
+        1622,
+        1623,
+        1624,
+        1625,
+        1626
+      ],
+      "selected_episode_ids": [
+        1622
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-368.parquet",
+      "sha256": "b3428d3684804c3db94a62d8b67f8332ca31d934a92c2556c3d80d255ce04e97",
+      "bytes": 92446025,
+      "all_episode_ids": [
+        1639,
+        1640,
+        1641,
+        1642,
+        1643,
+        1644
+      ],
+      "selected_episode_ids": [
+        1641
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-370.parquet",
+      "sha256": "7e268513770b6695a9f64cd2da5820be5cb4b7349261c95d76504d26a20cd786",
+      "bytes": 102024059,
+      "all_episode_ids": [
+        1651,
+        1652,
+        1653,
+        1654,
+        1655,
+        1656
+      ],
+      "selected_episode_ids": [
+        1652
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-371.parquet",
+      "sha256": "e7b7766df117f751aee1953ef13ac502426403008804b8bd28b2e21a3e86d2bd",
+      "bytes": 98113905,
+      "all_episode_ids": [
+        1657,
+        1658,
+        1659,
+        1660,
+        1661,
+        1662,
+        1663
+      ],
+      "selected_episode_ids": [
+        1657
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-372.parquet",
+      "sha256": "d0f94877ce7cc1c17f06edb19f177a5c7d34faa9d1d88eff21cc9aa03a786028",
+      "bytes": 102361542,
+      "all_episode_ids": [
+        1664,
+        1665,
+        1666,
+        1667,
+        1668,
+        1669,
+        1670
+      ],
+      "selected_episode_ids": [
+        1665,
+        1668
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-374.parquet",
+      "sha256": "62afbdbb9036349e90638cc55453d8ee6d4a35918030b9f383a9b77aa9799f5b",
+      "bytes": 103237913,
+      "all_episode_ids": [
+        1677,
+        1678,
+        1679,
+        1680,
+        1681,
+        1682,
+        1683
+      ],
+      "selected_episode_ids": [
+        1682
+      ]
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-375.parquet",
+      "sha256": "17f67296cfe910acd3c0425a9dec501959561385afdd34581048a890ddf762c1",
+      "bytes": 94117062,
+      "all_episode_ids": [
+        1684,
+        1685,
+        1686,
+        1687,
+        1688,
+        1689
+      ],
+      "selected_episode_ids": [
+        1686
+      ]
+    }
+  ],
+  "subsets": [
+    {
+      "replicate": "R1",
+      "condition": "N10",
+      "episode_ids": [
+        1283,
+        1345,
+        1440,
+        1455,
+        1466,
+        1478,
+        1510,
+        1549,
+        1573,
+        1641
+      ],
+      "episode_count": 10,
+      "frame_count": 1212,
+      "stats_path": "subsets/R1/N10/stats.json",
+      "stats_sha256": "8998ceedc86d43e94d30b3995edaa9d56f277229bc78d6f424a51ea4a695b78e",
+      "selection_path": "subsets/R1/N10/selection.json",
+      "selection_sha256": "948acbe6caa51b966103c27ab7eeffcd87090481d48a676ce1bd9c023ca88915",
+      "base_model_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+      "same_subset_and_stats_as": null
+    },
+    {
+      "replicate": "R1",
+      "condition": "N20",
+      "episode_ids": [
+        1283,
+        1287,
+        1317,
+        1345,
+        1385,
+        1432,
+        1440,
+        1455,
+        1466,
+        1478,
+        1479,
+        1510,
+        1549,
+        1557,
+        1573,
+        1641,
+        1652,
+        1665,
+        1668,
+        1682
+      ],
+      "episode_count": 20,
+      "frame_count": 2328,
+      "stats_path": "subsets/R1/N20/stats.json",
+      "stats_sha256": "4ff98e861aaccc0ca17a96c6a5dc2e6662ceb644d60b4b893fb6ed8024e54a9b",
+      "selection_path": "subsets/R1/N20/selection.json",
+      "selection_sha256": "809a908acab1e6f2e2ec9e02fd08a6cc7013c04adc96bde4e4a686dcd544319a",
+      "base_model_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+      "same_subset_and_stats_as": null
+    },
+    {
+      "replicate": "R1",
+      "condition": "N46",
+      "episode_ids": [
+        1283,
+        1287,
+        1289,
+        1299,
+        1310,
+        1315,
+        1316,
+        1317,
+        1320,
+        1345,
+        1353,
+        1354,
+        1358,
+        1377,
+        1380,
+        1383,
+        1385,
+        1426,
+        1428,
+        1432,
+        1440,
+        1442,
+        1445,
+        1455,
+        1460,
+        1466,
+        1478,
+        1479,
+        1483,
+        1509,
+        1510,
+        1514,
+        1545,
+        1549,
+        1556,
+        1557,
+        1573,
+        1603,
+        1622,
+        1641,
+        1652,
+        1657,
+        1665,
+        1668,
+        1682,
+        1686
+      ],
+      "episode_count": 46,
+      "frame_count": 5343,
+      "stats_path": "subsets/R1/N46/stats.json",
+      "stats_sha256": "968e2623464e46414481f04800356ad41484dde2136846254187da78e08f2adf",
+      "selection_path": "subsets/R1/N46/selection.json",
+      "selection_sha256": "be7924992f0ead071117b885ca2197f0831de50acfae99013537bacd786b5667",
+      "base_model_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+      "same_subset_and_stats_as": null
+    },
+    {
+      "replicate": "R1",
+      "condition": "N20B",
+      "episode_ids": [
+        1283,
+        1287,
+        1317,
+        1345,
+        1385,
+        1432,
+        1440,
+        1455,
+        1466,
+        1478,
+        1479,
+        1510,
+        1549,
+        1557,
+        1573,
+        1641,
+        1652,
+        1665,
+        1668,
+        1682
+      ],
+      "episode_count": 20,
+      "frame_count": 2328,
+      "stats_path": "subsets/R1/N20B/stats.json",
+      "stats_sha256": "4ff98e861aaccc0ca17a96c6a5dc2e6662ceb644d60b4b893fb6ed8024e54a9b",
+      "selection_path": "subsets/R1/N20B/selection.json",
+      "selection_sha256": "809a908acab1e6f2e2ec9e02fd08a6cc7013c04adc96bde4e4a686dcd544319a",
+      "base_model_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+      "same_subset_and_stats_as": "N20"
+    },
+    {
+      "replicate": "R2",
+      "condition": "N10",
+      "episode_ids": [
+        1283,
+        1315,
+        1320,
+        1345,
+        1428,
+        1442,
+        1455,
+        1556,
+        1622,
+        1665
+      ],
+      "episode_count": 10,
+      "frame_count": 1209,
+      "stats_path": "subsets/R2/N10/stats.json",
+      "stats_sha256": "0e2689805f36c1c1750aa193610612166505eae3606c591d332e5cc5550a2827",
+      "selection_path": "subsets/R2/N10/selection.json",
+      "selection_sha256": "d614c6d22b83aed1a184bbd10ee646db83f6b1f945ca59b27e7181b84fd1c52c",
+      "base_model_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+      "same_subset_and_stats_as": null
+    },
+    {
+      "replicate": "R2",
+      "condition": "N20",
+      "episode_ids": [
+        1283,
+        1287,
+        1310,
+        1315,
+        1320,
+        1345,
+        1354,
+        1377,
+        1380,
+        1426,
+        1428,
+        1442,
+        1445,
+        1455,
+        1556,
+        1603,
+        1622,
+        1641,
+        1665,
+        1668
+      ],
+      "episode_count": 20,
+      "frame_count": 2343,
+      "stats_path": "subsets/R2/N20/stats.json",
+      "stats_sha256": "5f209c0dd556e1d12b1f69ac6ef81d2b825ca7f97fa42c0a95a8465c883deb9f",
+      "selection_path": "subsets/R2/N20/selection.json",
+      "selection_sha256": "4a0e6ee2fefcab9c630a0eba484d4a299921bc67fbde36e999c8101f3b62779a",
+      "base_model_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+      "same_subset_and_stats_as": null
+    },
+    {
+      "replicate": "R2",
+      "condition": "N46",
+      "episode_ids": [
+        1283,
+        1287,
+        1289,
+        1299,
+        1310,
+        1315,
+        1316,
+        1317,
+        1320,
+        1345,
+        1353,
+        1354,
+        1358,
+        1377,
+        1380,
+        1383,
+        1385,
+        1426,
+        1428,
+        1432,
+        1440,
+        1442,
+        1445,
+        1455,
+        1460,
+        1466,
+        1478,
+        1479,
+        1483,
+        1509,
+        1510,
+        1514,
+        1545,
+        1549,
+        1556,
+        1557,
+        1573,
+        1603,
+        1622,
+        1641,
+        1652,
+        1657,
+        1665,
+        1668,
+        1682,
+        1686
+      ],
+      "episode_count": 46,
+      "frame_count": 5343,
+      "stats_path": "subsets/R2/N46/stats.json",
+      "stats_sha256": "968e2623464e46414481f04800356ad41484dde2136846254187da78e08f2adf",
+      "selection_path": "subsets/R2/N46/selection.json",
+      "selection_sha256": "be7924992f0ead071117b885ca2197f0831de50acfae99013537bacd786b5667",
+      "base_model_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+      "same_subset_and_stats_as": null
+    },
+    {
+      "replicate": "R2",
+      "condition": "N20B",
+      "episode_ids": [
+        1283,
+        1287,
+        1310,
+        1315,
+        1320,
+        1345,
+        1354,
+        1377,
+        1380,
+        1426,
+        1428,
+        1442,
+        1445,
+        1455,
+        1556,
+        1603,
+        1622,
+        1641,
+        1665,
+        1668
+      ],
+      "episode_count": 20,
+      "frame_count": 2343,
+      "stats_path": "subsets/R2/N20B/stats.json",
+      "stats_sha256": "5f209c0dd556e1d12b1f69ac6ef81d2b825ca7f97fa42c0a95a8465c883deb9f",
+      "selection_path": "subsets/R2/N20B/selection.json",
+      "selection_sha256": "4a0e6ee2fefcab9c630a0eba484d4a299921bc67fbde36e999c8101f3b62779a",
+      "base_model_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+      "same_subset_and_stats_as": "N20"
+    },
+    {
+      "replicate": "R3",
+      "condition": "N10",
+      "episode_ids": [
+        1316,
+        1317,
+        1428,
+        1440,
+        1455,
+        1479,
+        1509,
+        1557,
+        1603,
+        1622
+      ],
+      "episode_count": 10,
+      "frame_count": 1189,
+      "stats_path": "subsets/R3/N10/stats.json",
+      "stats_sha256": "c9d66b2fb430490b3b4a39b1a05f5f6e1c12d14c6a62c6dd1d8277f2d450014d",
+      "selection_path": "subsets/R3/N10/selection.json",
+      "selection_sha256": "df47ce11703755a94674d96bf42e5d128ec6fcb35ac9af41723b474dd37bb118",
+      "base_model_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+      "same_subset_and_stats_as": null
+    },
+    {
+      "replicate": "R3",
+      "condition": "N20",
+      "episode_ids": [
+        1283,
+        1316,
+        1317,
+        1320,
+        1345,
+        1354,
+        1377,
+        1380,
+        1428,
+        1440,
+        1455,
+        1479,
+        1483,
+        1509,
+        1545,
+        1556,
+        1557,
+        1603,
+        1622,
+        1686
+      ],
+      "episode_count": 20,
+      "frame_count": 2372,
+      "stats_path": "subsets/R3/N20/stats.json",
+      "stats_sha256": "c3556fad8125fb12ed0966a8ce0d5e7733d1b6d03318054d3b02a6ba4a554741",
+      "selection_path": "subsets/R3/N20/selection.json",
+      "selection_sha256": "ed7a3b0e78c500121b0d30a0d807d58288ad4f96252c6ae9ad6cc98791aea9ef",
+      "base_model_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+      "same_subset_and_stats_as": null
+    },
+    {
+      "replicate": "R3",
+      "condition": "N46",
+      "episode_ids": [
+        1283,
+        1287,
+        1289,
+        1299,
+        1310,
+        1315,
+        1316,
+        1317,
+        1320,
+        1345,
+        1353,
+        1354,
+        1358,
+        1377,
+        1380,
+        1383,
+        1385,
+        1426,
+        1428,
+        1432,
+        1440,
+        1442,
+        1445,
+        1455,
+        1460,
+        1466,
+        1478,
+        1479,
+        1483,
+        1509,
+        1510,
+        1514,
+        1545,
+        1549,
+        1556,
+        1557,
+        1573,
+        1603,
+        1622,
+        1641,
+        1652,
+        1657,
+        1665,
+        1668,
+        1682,
+        1686
+      ],
+      "episode_count": 46,
+      "frame_count": 5343,
+      "stats_path": "subsets/R3/N46/stats.json",
+      "stats_sha256": "968e2623464e46414481f04800356ad41484dde2136846254187da78e08f2adf",
+      "selection_path": "subsets/R3/N46/selection.json",
+      "selection_sha256": "be7924992f0ead071117b885ca2197f0831de50acfae99013537bacd786b5667",
+      "base_model_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+      "same_subset_and_stats_as": null
+    },
+    {
+      "replicate": "R3",
+      "condition": "N20B",
+      "episode_ids": [
+        1283,
+        1316,
+        1317,
+        1320,
+        1345,
+        1354,
+        1377,
+        1380,
+        1428,
+        1440,
+        1455,
+        1479,
+        1483,
+        1509,
+        1545,
+        1556,
+        1557,
+        1603,
+        1622,
+        1686
+      ],
+      "episode_count": 20,
+      "frame_count": 2372,
+      "stats_path": "subsets/R3/N20B/stats.json",
+      "stats_sha256": "c3556fad8125fb12ed0966a8ce0d5e7733d1b6d03318054d3b02a6ba4a554741",
+      "selection_path": "subsets/R3/N20B/selection.json",
+      "selection_sha256": "ed7a3b0e78c500121b0d30a0d807d58288ad4f96252c6ae9ad6cc98791aea9ef",
+      "base_model_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+      "same_subset_and_stats_as": "N20"
+    }
+  ]
+}

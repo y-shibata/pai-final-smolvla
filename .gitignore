@@ -1,0 +1,12 @@
+*.safetensors
+*.bin
+*.pt
+*.pth
+**/adapter/
+**/checkpoint_*/
+cache/
+.venv/
+__pycache__/
+.env
+.env.*
+!*.example

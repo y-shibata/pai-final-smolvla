@@ -1,0 +1,2936 @@
+{
+  "version": 1,
+  "phase": "P3",
+  "frozen_at_utc": "2026-10-11T01:55:35.636172+00:00",
+  "plan_md5": "6ccbb83f0f1449bcce0f1fd94556b81b",
+  "models": [
+    {
+      "model_id": "R1N20",
+      "replicate": "R1",
+      "training_condition": "N20",
+      "loader": "P2",
+      "checkpoint": "~/projects/pai-final-smolvla/p2/R1/N20/checkpoint_030000",
+      "weights_sha256": "7eedb4330dc45c002c7a6cd244d602bf8d5eb7aa5ee5025a3b1af12c3d24ec2e",
+      "weight_kind": "full model",
+      "processor_sha256": "fa90360419fa5970ed731d768642202efef6af48cfabc1a378cae241db6f4d75",
+      "processor_files": [
+        [
+          "policy_postprocessor.json",
+          "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a"
+        ],
+        [
+          "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+          "a092985b6bfc0caf016c8591f62099bc211672dec935603dd9daaf302e83914b"
+        ],
+        [
+          "policy_preprocessor.json",
+          "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691"
+        ],
+        [
+          "policy_preprocessor_step_5_normalizer_processor.safetensors",
+          "a092985b6bfc0caf016c8591f62099bc211672dec935603dd9daaf302e83914b"
+        ],
+        [
+          "tokenizer/chat_template.jinja",
+          "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01"
+        ],
+        [
+          "tokenizer/tokenizer.json",
+          "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5"
+        ],
+        [
+          "tokenizer/tokenizer_config.json",
+          "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+        ]
+      ],
+      "normalizer_files": {
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "a092985b6bfc0caf016c8591f62099bc211672dec935603dd9daaf302e83914b",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "a092985b6bfc0caf016c8591f62099bc211672dec935603dd9daaf302e83914b"
+      },
+      "normalizer_tensor_sha256": "d10207cb0a272646b34db3fef75f08ccebee633889e0e36dcdeefd5e63b94320",
+      "checkpoint_files": {
+        "adapter/adapter_config.json": "01207813ca650f47ec235d097f24b10cbdf7180c3109beae032bb942f8aac081",
+        "config.json": "c737a91ad260a5f494cf96aa33fb92b5cb0526c152f94ada6c6f89345cfefe1f",
+        "model.safetensors": "7eedb4330dc45c002c7a6cd244d602bf8d5eb7aa5ee5025a3b1af12c3d24ec2e",
+        "policy_postprocessor.json": "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a",
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "a092985b6bfc0caf016c8591f62099bc211672dec935603dd9daaf302e83914b",
+        "policy_preprocessor.json": "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "a092985b6bfc0caf016c8591f62099bc211672dec935603dd9daaf302e83914b",
+        "tokenizer/chat_template.jinja": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01",
+        "tokenizer/tokenizer.json": "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5",
+        "tokenizer/tokenizer_config.json": "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+      },
+      "stats_source": "P0 R1/N20 subset stats"
+    },
+    {
+      "model_id": "R1N20B",
+      "replicate": "R1",
+      "training_condition": "N20B",
+      "loader": "P2",
+      "checkpoint": "~/projects/pai-final-smolvla/p2/R1/N20B/checkpoint_030000",
+      "weights_sha256": "2f1f39160069a94f53ec5216ddf2096b9e4bc6082eccf9b62e48e2c13bdeab98",
+      "weight_kind": "full model",
+      "processor_sha256": "fa90360419fa5970ed731d768642202efef6af48cfabc1a378cae241db6f4d75",
+      "processor_files": [
+        [
+          "policy_postprocessor.json",
+          "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a"
+        ],
+        [
+          "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+          "a092985b6bfc0caf016c8591f62099bc211672dec935603dd9daaf302e83914b"
+        ],
+        [
+          "policy_preprocessor.json",
+          "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691"
+        ],
+        [
+          "policy_preprocessor_step_5_normalizer_processor.safetensors",
+          "a092985b6bfc0caf016c8591f62099bc211672dec935603dd9daaf302e83914b"
+        ],
+        [
+          "tokenizer/chat_template.jinja",
+          "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01"
+        ],
+        [
+          "tokenizer/tokenizer.json",
+          "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5"
+        ],
+        [
+          "tokenizer/tokenizer_config.json",
+          "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+        ]
+      ],
+      "normalizer_files": {
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "a092985b6bfc0caf016c8591f62099bc211672dec935603dd9daaf302e83914b",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "a092985b6bfc0caf016c8591f62099bc211672dec935603dd9daaf302e83914b"
+      },
+      "normalizer_tensor_sha256": "d10207cb0a272646b34db3fef75f08ccebee633889e0e36dcdeefd5e63b94320",
+      "checkpoint_files": {
+        "adapter/adapter_config.json": "01207813ca650f47ec235d097f24b10cbdf7180c3109beae032bb942f8aac081",
+        "config.json": "c737a91ad260a5f494cf96aa33fb92b5cb0526c152f94ada6c6f89345cfefe1f",
+        "model.safetensors": "2f1f39160069a94f53ec5216ddf2096b9e4bc6082eccf9b62e48e2c13bdeab98",
+        "policy_postprocessor.json": "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a",
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "a092985b6bfc0caf016c8591f62099bc211672dec935603dd9daaf302e83914b",
+        "policy_preprocessor.json": "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "a092985b6bfc0caf016c8591f62099bc211672dec935603dd9daaf302e83914b",
+        "tokenizer/chat_template.jinja": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01",
+        "tokenizer/tokenizer.json": "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5",
+        "tokenizer/tokenizer_config.json": "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+      },
+      "stats_source": "P0 R1/N20B subset stats"
+    },
+    {
+      "model_id": "R1N10",
+      "replicate": "R1",
+      "training_condition": "N10",
+      "loader": "P2",
+      "checkpoint": "~/projects/pai-final-smolvla/p2/R1/N10/checkpoint_030000",
+      "weights_sha256": "ba0f1a7024094dd8cc90b5b7f77349bb4fe710e01392eb43cc86c74d8768f984",
+      "weight_kind": "full model",
+      "processor_sha256": "ba214ee2430ab9e10ce9e808f8d5cbf0871178b517bff709fb01ef7668202f67",
+      "processor_files": [
+        [
+          "policy_postprocessor.json",
+          "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a"
+        ],
+        [
+          "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+          "270b03ba1dd81fe2538bb3f57722afb398c10ae036b9c41227c590dcc31e5ac5"
+        ],
+        [
+          "policy_preprocessor.json",
+          "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691"
+        ],
+        [
+          "policy_preprocessor_step_5_normalizer_processor.safetensors",
+          "270b03ba1dd81fe2538bb3f57722afb398c10ae036b9c41227c590dcc31e5ac5"
+        ],
+        [
+          "tokenizer/chat_template.jinja",
+          "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01"
+        ],
+        [
+          "tokenizer/tokenizer.json",
+          "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5"
+        ],
+        [
+          "tokenizer/tokenizer_config.json",
+          "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+        ]
+      ],
+      "normalizer_files": {
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "270b03ba1dd81fe2538bb3f57722afb398c10ae036b9c41227c590dcc31e5ac5",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "270b03ba1dd81fe2538bb3f57722afb398c10ae036b9c41227c590dcc31e5ac5"
+      },
+      "normalizer_tensor_sha256": "05eafa0640ea87e1ac62002a58fe64b443187bc94bdc0414743fc8feb6a1b01f",
+      "checkpoint_files": {
+        "adapter/adapter_config.json": "01207813ca650f47ec235d097f24b10cbdf7180c3109beae032bb942f8aac081",
+        "config.json": "c737a91ad260a5f494cf96aa33fb92b5cb0526c152f94ada6c6f89345cfefe1f",
+        "model.safetensors": "ba0f1a7024094dd8cc90b5b7f77349bb4fe710e01392eb43cc86c74d8768f984",
+        "policy_postprocessor.json": "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a",
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "270b03ba1dd81fe2538bb3f57722afb398c10ae036b9c41227c590dcc31e5ac5",
+        "policy_preprocessor.json": "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "270b03ba1dd81fe2538bb3f57722afb398c10ae036b9c41227c590dcc31e5ac5",
+        "tokenizer/chat_template.jinja": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01",
+        "tokenizer/tokenizer.json": "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5",
+        "tokenizer/tokenizer_config.json": "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+      },
+      "stats_source": "P0 R1/N10 subset stats"
+    },
+    {
+      "model_id": "R1N46",
+      "replicate": "R1",
+      "training_condition": "N46",
+      "loader": "P2",
+      "checkpoint": "~/projects/pai-final-smolvla/p2/R1/N46/checkpoint_030000",
+      "weights_sha256": "2896a0b7244408b69ce1a5ccee8d467408e0aac13c8e85d34b00d438f15133af",
+      "weight_kind": "full model",
+      "processor_sha256": "c973e4df6a38561c299028312757ced44d9e00b21ca9fe5d9661e93a348dfe72",
+      "processor_files": [
+        [
+          "policy_postprocessor.json",
+          "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a"
+        ],
+        [
+          "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+          "06a6b70a2b3ed0c1431fd5a613924e0036d17e3a3d5c169c453d122fdfd91d6c"
+        ],
+        [
+          "policy_preprocessor.json",
+          "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691"
+        ],
+        [
+          "policy_preprocessor_step_5_normalizer_processor.safetensors",
+          "06a6b70a2b3ed0c1431fd5a613924e0036d17e3a3d5c169c453d122fdfd91d6c"
+        ],
+        [
+          "tokenizer/chat_template.jinja",
+          "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01"
+        ],
+        [
+          "tokenizer/tokenizer.json",
+          "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5"
+        ],
+        [
+          "tokenizer/tokenizer_config.json",
+          "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+        ]
+      ],
+      "normalizer_files": {
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "06a6b70a2b3ed0c1431fd5a613924e0036d17e3a3d5c169c453d122fdfd91d6c",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "06a6b70a2b3ed0c1431fd5a613924e0036d17e3a3d5c169c453d122fdfd91d6c"
+      },
+      "normalizer_tensor_sha256": "96d49682525c8a2a181ddb3cdaa25289b7cec2d520e23a8f5e504a55758d43bc",
+      "checkpoint_files": {
+        "adapter/adapter_config.json": "01207813ca650f47ec235d097f24b10cbdf7180c3109beae032bb942f8aac081",
+        "config.json": "c737a91ad260a5f494cf96aa33fb92b5cb0526c152f94ada6c6f89345cfefe1f",
+        "model.safetensors": "2896a0b7244408b69ce1a5ccee8d467408e0aac13c8e85d34b00d438f15133af",
+        "policy_postprocessor.json": "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a",
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "06a6b70a2b3ed0c1431fd5a613924e0036d17e3a3d5c169c453d122fdfd91d6c",
+        "policy_preprocessor.json": "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "06a6b70a2b3ed0c1431fd5a613924e0036d17e3a3d5c169c453d122fdfd91d6c",
+        "tokenizer/chat_template.jinja": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01",
+        "tokenizer/tokenizer.json": "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5",
+        "tokenizer/tokenizer_config.json": "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+      },
+      "stats_source": "P0 R1/N46 subset stats"
+    },
+    {
+      "model_id": "R2N20",
+      "replicate": "R2",
+      "training_condition": "N20",
+      "loader": "P2",
+      "checkpoint": "~/projects/pai-final-smolvla/p2/R2/N20/checkpoint_030000",
+      "weights_sha256": "718cc87af4370900605a39a9aa31cdcc5240e1f99ccad6050b73badf19bd1bb1",
+      "weight_kind": "full model",
+      "processor_sha256": "fbbf170f61b3d5d78534f36e3e48a4c9009dbbe73a9b0489cdb5f60b32a7a5de",
+      "processor_files": [
+        [
+          "policy_postprocessor.json",
+          "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a"
+        ],
+        [
+          "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+          "dd6b6b30f23bcdfc4cc4082f62de987659eab00d645743d16517dc8f5b3bfcbc"
+        ],
+        [
+          "policy_preprocessor.json",
+          "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691"
+        ],
+        [
+          "policy_preprocessor_step_5_normalizer_processor.safetensors",
+          "dd6b6b30f23bcdfc4cc4082f62de987659eab00d645743d16517dc8f5b3bfcbc"
+        ],
+        [
+          "tokenizer/chat_template.jinja",
+          "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01"
+        ],
+        [
+          "tokenizer/tokenizer.json",
+          "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5"
+        ],
+        [
+          "tokenizer/tokenizer_config.json",
+          "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+        ]
+      ],
+      "normalizer_files": {
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "dd6b6b30f23bcdfc4cc4082f62de987659eab00d645743d16517dc8f5b3bfcbc",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "dd6b6b30f23bcdfc4cc4082f62de987659eab00d645743d16517dc8f5b3bfcbc"
+      },
+      "normalizer_tensor_sha256": "093481de39413f278c9db5eb6645a9d858ad7443263050d5f979380ff1422b12",
+      "checkpoint_files": {
+        "adapter/adapter_config.json": "01207813ca650f47ec235d097f24b10cbdf7180c3109beae032bb942f8aac081",
+        "config.json": "c737a91ad260a5f494cf96aa33fb92b5cb0526c152f94ada6c6f89345cfefe1f",
+        "model.safetensors": "718cc87af4370900605a39a9aa31cdcc5240e1f99ccad6050b73badf19bd1bb1",
+        "policy_postprocessor.json": "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a",
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "dd6b6b30f23bcdfc4cc4082f62de987659eab00d645743d16517dc8f5b3bfcbc",
+        "policy_preprocessor.json": "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "dd6b6b30f23bcdfc4cc4082f62de987659eab00d645743d16517dc8f5b3bfcbc",
+        "tokenizer/chat_template.jinja": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01",
+        "tokenizer/tokenizer.json": "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5",
+        "tokenizer/tokenizer_config.json": "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+      },
+      "stats_source": "P0 R2/N20 subset stats"
+    },
+    {
+      "model_id": "R2N20B",
+      "replicate": "R2",
+      "training_condition": "N20B",
+      "loader": "P2",
+      "checkpoint": "~/projects/pai-final-smolvla/p2/R2/N20B/checkpoint_030000",
+      "weights_sha256": "4adfa078f23c107e11f1ccf84538c265d769186634cc9bffedfe2b2ce6d8668d",
+      "weight_kind": "full model",
+      "processor_sha256": "fbbf170f61b3d5d78534f36e3e48a4c9009dbbe73a9b0489cdb5f60b32a7a5de",
+      "processor_files": [
+        [
+          "policy_postprocessor.json",
+          "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a"
+        ],
+        [
+          "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+          "dd6b6b30f23bcdfc4cc4082f62de987659eab00d645743d16517dc8f5b3bfcbc"
+        ],
+        [
+          "policy_preprocessor.json",
+          "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691"
+        ],
+        [
+          "policy_preprocessor_step_5_normalizer_processor.safetensors",
+          "dd6b6b30f23bcdfc4cc4082f62de987659eab00d645743d16517dc8f5b3bfcbc"
+        ],
+        [
+          "tokenizer/chat_template.jinja",
+          "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01"
+        ],
+        [
+          "tokenizer/tokenizer.json",
+          "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5"
+        ],
+        [
+          "tokenizer/tokenizer_config.json",
+          "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+        ]
+      ],
+      "normalizer_files": {
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "dd6b6b30f23bcdfc4cc4082f62de987659eab00d645743d16517dc8f5b3bfcbc",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "dd6b6b30f23bcdfc4cc4082f62de987659eab00d645743d16517dc8f5b3bfcbc"
+      },
+      "normalizer_tensor_sha256": "093481de39413f278c9db5eb6645a9d858ad7443263050d5f979380ff1422b12",
+      "checkpoint_files": {
+        "adapter/adapter_config.json": "01207813ca650f47ec235d097f24b10cbdf7180c3109beae032bb942f8aac081",
+        "config.json": "c737a91ad260a5f494cf96aa33fb92b5cb0526c152f94ada6c6f89345cfefe1f",
+        "model.safetensors": "4adfa078f23c107e11f1ccf84538c265d769186634cc9bffedfe2b2ce6d8668d",
+        "policy_postprocessor.json": "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a",
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "dd6b6b30f23bcdfc4cc4082f62de987659eab00d645743d16517dc8f5b3bfcbc",
+        "policy_preprocessor.json": "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "dd6b6b30f23bcdfc4cc4082f62de987659eab00d645743d16517dc8f5b3bfcbc",
+        "tokenizer/chat_template.jinja": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01",
+        "tokenizer/tokenizer.json": "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5",
+        "tokenizer/tokenizer_config.json": "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+      },
+      "stats_source": "P0 R2/N20B subset stats"
+    },
+    {
+      "model_id": "R2N10",
+      "replicate": "R2",
+      "training_condition": "N10",
+      "loader": "P2",
+      "checkpoint": "~/projects/pai-final-smolvla/p2/R2/N10/checkpoint_030000",
+      "weights_sha256": "1418c0451ac075568d2fde9abdf1192d0f7f1ba0a70f8265f7848f9dc6cf5cea",
+      "weight_kind": "full model",
+      "processor_sha256": "5cc4b1a8b37cc074293729ebb8cdf0075840155611e2e61b26492ffb38b00968",
+      "processor_files": [
+        [
+          "policy_postprocessor.json",
+          "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a"
+        ],
+        [
+          "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+          "3d1a1724bd893199b4b5fdba96384b460f30201a7caeb08b9d4f4ae13275b757"
+        ],
+        [
+          "policy_preprocessor.json",
+          "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691"
+        ],
+        [
+          "policy_preprocessor_step_5_normalizer_processor.safetensors",
+          "3d1a1724bd893199b4b5fdba96384b460f30201a7caeb08b9d4f4ae13275b757"
+        ],
+        [
+          "tokenizer/chat_template.jinja",
+          "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01"
+        ],
+        [
+          "tokenizer/tokenizer.json",
+          "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5"
+        ],
+        [
+          "tokenizer/tokenizer_config.json",
+          "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+        ]
+      ],
+      "normalizer_files": {
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "3d1a1724bd893199b4b5fdba96384b460f30201a7caeb08b9d4f4ae13275b757",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "3d1a1724bd893199b4b5fdba96384b460f30201a7caeb08b9d4f4ae13275b757"
+      },
+      "normalizer_tensor_sha256": "d67efa98c4034b69aca07a570e7e851075ffe580686e2ea32cbe80e069004150",
+      "checkpoint_files": {
+        "adapter/adapter_config.json": "01207813ca650f47ec235d097f24b10cbdf7180c3109beae032bb942f8aac081",
+        "config.json": "c737a91ad260a5f494cf96aa33fb92b5cb0526c152f94ada6c6f89345cfefe1f",
+        "model.safetensors": "1418c0451ac075568d2fde9abdf1192d0f7f1ba0a70f8265f7848f9dc6cf5cea",
+        "policy_postprocessor.json": "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a",
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "3d1a1724bd893199b4b5fdba96384b460f30201a7caeb08b9d4f4ae13275b757",
+        "policy_preprocessor.json": "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "3d1a1724bd893199b4b5fdba96384b460f30201a7caeb08b9d4f4ae13275b757",
+        "tokenizer/chat_template.jinja": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01",
+        "tokenizer/tokenizer.json": "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5",
+        "tokenizer/tokenizer_config.json": "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+      },
+      "stats_source": "P0 R2/N10 subset stats"
+    },
+    {
+      "model_id": "R2N46",
+      "replicate": "R2",
+      "training_condition": "N46",
+      "loader": "P2",
+      "checkpoint": "~/projects/pai-final-smolvla/p2/R2/N46/checkpoint_030000",
+      "weights_sha256": "540f9f7fe059d788c494be201ac614e2665546c55323cf2c7f608debb1f44551",
+      "weight_kind": "full model",
+      "processor_sha256": "c973e4df6a38561c299028312757ced44d9e00b21ca9fe5d9661e93a348dfe72",
+      "processor_files": [
+        [
+          "policy_postprocessor.json",
+          "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a"
+        ],
+        [
+          "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+          "06a6b70a2b3ed0c1431fd5a613924e0036d17e3a3d5c169c453d122fdfd91d6c"
+        ],
+        [
+          "policy_preprocessor.json",
+          "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691"
+        ],
+        [
+          "policy_preprocessor_step_5_normalizer_processor.safetensors",
+          "06a6b70a2b3ed0c1431fd5a613924e0036d17e3a3d5c169c453d122fdfd91d6c"
+        ],
+        [
+          "tokenizer/chat_template.jinja",
+          "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01"
+        ],
+        [
+          "tokenizer/tokenizer.json",
+          "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5"
+        ],
+        [
+          "tokenizer/tokenizer_config.json",
+          "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+        ]
+      ],
+      "normalizer_files": {
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "06a6b70a2b3ed0c1431fd5a613924e0036d17e3a3d5c169c453d122fdfd91d6c",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "06a6b70a2b3ed0c1431fd5a613924e0036d17e3a3d5c169c453d122fdfd91d6c"
+      },
+      "normalizer_tensor_sha256": "96d49682525c8a2a181ddb3cdaa25289b7cec2d520e23a8f5e504a55758d43bc",
+      "checkpoint_files": {
+        "adapter/adapter_config.json": "01207813ca650f47ec235d097f24b10cbdf7180c3109beae032bb942f8aac081",
+        "config.json": "c737a91ad260a5f494cf96aa33fb92b5cb0526c152f94ada6c6f89345cfefe1f",
+        "model.safetensors": "540f9f7fe059d788c494be201ac614e2665546c55323cf2c7f608debb1f44551",
+        "policy_postprocessor.json": "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a",
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "06a6b70a2b3ed0c1431fd5a613924e0036d17e3a3d5c169c453d122fdfd91d6c",
+        "policy_preprocessor.json": "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "06a6b70a2b3ed0c1431fd5a613924e0036d17e3a3d5c169c453d122fdfd91d6c",
+        "tokenizer/chat_template.jinja": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01",
+        "tokenizer/tokenizer.json": "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5",
+        "tokenizer/tokenizer_config.json": "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+      },
+      "stats_source": "P0 R2/N46 subset stats"
+    },
+    {
+      "model_id": "R3N20",
+      "replicate": "R3",
+      "training_condition": "N20",
+      "loader": "P2",
+      "checkpoint": "~/projects/pai-final-smolvla/p2/R3/N20/checkpoint_030000",
+      "weights_sha256": "dea0b349341c917a19143b35d87c41830c8be80850fdf0721ffd66fcb3bc0956",
+      "weight_kind": "full model",
+      "processor_sha256": "90778577b7bfd1d9e43760cd27d1a4337d95201eee82bfcd86bc8ebf588f7aec",
+      "processor_files": [
+        [
+          "policy_postprocessor.json",
+          "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a"
+        ],
+        [
+          "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+          "aa98fbd5268f2ba11158d35aac78f16742399306648781550f02d33bef19cba6"
+        ],
+        [
+          "policy_preprocessor.json",
+          "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691"
+        ],
+        [
+          "policy_preprocessor_step_5_normalizer_processor.safetensors",
+          "aa98fbd5268f2ba11158d35aac78f16742399306648781550f02d33bef19cba6"
+        ],
+        [
+          "tokenizer/chat_template.jinja",
+          "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01"
+        ],
+        [
+          "tokenizer/tokenizer.json",
+          "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5"
+        ],
+        [
+          "tokenizer/tokenizer_config.json",
+          "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+        ]
+      ],
+      "normalizer_files": {
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "aa98fbd5268f2ba11158d35aac78f16742399306648781550f02d33bef19cba6",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "aa98fbd5268f2ba11158d35aac78f16742399306648781550f02d33bef19cba6"
+      },
+      "normalizer_tensor_sha256": "debce1c1e5a420dbda3622c8cef506cf0fed210953cd9c61f051697820457ec3",
+      "checkpoint_files": {
+        "adapter/adapter_config.json": "01207813ca650f47ec235d097f24b10cbdf7180c3109beae032bb942f8aac081",
+        "config.json": "c737a91ad260a5f494cf96aa33fb92b5cb0526c152f94ada6c6f89345cfefe1f",
+        "model.safetensors": "dea0b349341c917a19143b35d87c41830c8be80850fdf0721ffd66fcb3bc0956",
+        "policy_postprocessor.json": "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a",
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "aa98fbd5268f2ba11158d35aac78f16742399306648781550f02d33bef19cba6",
+        "policy_preprocessor.json": "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "aa98fbd5268f2ba11158d35aac78f16742399306648781550f02d33bef19cba6",
+        "tokenizer/chat_template.jinja": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01",
+        "tokenizer/tokenizer.json": "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5",
+        "tokenizer/tokenizer_config.json": "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+      },
+      "stats_source": "P0 R3/N20 subset stats"
+    },
+    {
+      "model_id": "R3N20B",
+      "replicate": "R3",
+      "training_condition": "N20B",
+      "loader": "P2",
+      "checkpoint": "~/projects/pai-final-smolvla/p2/R3/N20B/checkpoint_030000",
+      "weights_sha256": "1c5ea459223257ed6842d63a137d6e8ca7fd870833c8172026126fe91fddbd15",
+      "weight_kind": "full model",
+      "processor_sha256": "90778577b7bfd1d9e43760cd27d1a4337d95201eee82bfcd86bc8ebf588f7aec",
+      "processor_files": [
+        [
+          "policy_postprocessor.json",
+          "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a"
+        ],
+        [
+          "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+          "aa98fbd5268f2ba11158d35aac78f16742399306648781550f02d33bef19cba6"
+        ],
+        [
+          "policy_preprocessor.json",
+          "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691"
+        ],
+        [
+          "policy_preprocessor_step_5_normalizer_processor.safetensors",
+          "aa98fbd5268f2ba11158d35aac78f16742399306648781550f02d33bef19cba6"
+        ],
+        [
+          "tokenizer/chat_template.jinja",
+          "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01"
+        ],
+        [
+          "tokenizer/tokenizer.json",
+          "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5"
+        ],
+        [
+          "tokenizer/tokenizer_config.json",
+          "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+        ]
+      ],
+      "normalizer_files": {
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "aa98fbd5268f2ba11158d35aac78f16742399306648781550f02d33bef19cba6",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "aa98fbd5268f2ba11158d35aac78f16742399306648781550f02d33bef19cba6"
+      },
+      "normalizer_tensor_sha256": "debce1c1e5a420dbda3622c8cef506cf0fed210953cd9c61f051697820457ec3",
+      "checkpoint_files": {
+        "adapter/adapter_config.json": "01207813ca650f47ec235d097f24b10cbdf7180c3109beae032bb942f8aac081",
+        "config.json": "c737a91ad260a5f494cf96aa33fb92b5cb0526c152f94ada6c6f89345cfefe1f",
+        "model.safetensors": "1c5ea459223257ed6842d63a137d6e8ca7fd870833c8172026126fe91fddbd15",
+        "policy_postprocessor.json": "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a",
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "aa98fbd5268f2ba11158d35aac78f16742399306648781550f02d33bef19cba6",
+        "policy_preprocessor.json": "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "aa98fbd5268f2ba11158d35aac78f16742399306648781550f02d33bef19cba6",
+        "tokenizer/chat_template.jinja": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01",
+        "tokenizer/tokenizer.json": "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5",
+        "tokenizer/tokenizer_config.json": "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+      },
+      "stats_source": "P0 R3/N20B subset stats"
+    },
+    {
+      "model_id": "R3N10",
+      "replicate": "R3",
+      "training_condition": "N10",
+      "loader": "P2",
+      "checkpoint": "~/projects/pai-final-smolvla/p2/R3/N10/checkpoint_030000",
+      "weights_sha256": "aba06e96bbdae42eca809abb0871ebf3804e02674ff997b48cff1090ba23ecc4",
+      "weight_kind": "full model",
+      "processor_sha256": "dae4f81191ad56cf1cb08ac64dd2c701c0193d1d0156756fcdb40569d404e03d",
+      "processor_files": [
+        [
+          "policy_postprocessor.json",
+          "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a"
+        ],
+        [
+          "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+          "cd238e0e3edcc720d0e21d8365a9aa7aba9e26d1f52c51b49c0d1b84aad36725"
+        ],
+        [
+          "policy_preprocessor.json",
+          "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691"
+        ],
+        [
+          "policy_preprocessor_step_5_normalizer_processor.safetensors",
+          "cd238e0e3edcc720d0e21d8365a9aa7aba9e26d1f52c51b49c0d1b84aad36725"
+        ],
+        [
+          "tokenizer/chat_template.jinja",
+          "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01"
+        ],
+        [
+          "tokenizer/tokenizer.json",
+          "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5"
+        ],
+        [
+          "tokenizer/tokenizer_config.json",
+          "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+        ]
+      ],
+      "normalizer_files": {
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "cd238e0e3edcc720d0e21d8365a9aa7aba9e26d1f52c51b49c0d1b84aad36725",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "cd238e0e3edcc720d0e21d8365a9aa7aba9e26d1f52c51b49c0d1b84aad36725"
+      },
+      "normalizer_tensor_sha256": "0c1b01bb505068247515a63842ce674d6bed8d5dc9bb6b35e538d56d74d20ae3",
+      "checkpoint_files": {
+        "adapter/adapter_config.json": "01207813ca650f47ec235d097f24b10cbdf7180c3109beae032bb942f8aac081",
+        "config.json": "c737a91ad260a5f494cf96aa33fb92b5cb0526c152f94ada6c6f89345cfefe1f",
+        "model.safetensors": "aba06e96bbdae42eca809abb0871ebf3804e02674ff997b48cff1090ba23ecc4",
+        "policy_postprocessor.json": "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a",
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "cd238e0e3edcc720d0e21d8365a9aa7aba9e26d1f52c51b49c0d1b84aad36725",
+        "policy_preprocessor.json": "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "cd238e0e3edcc720d0e21d8365a9aa7aba9e26d1f52c51b49c0d1b84aad36725",
+        "tokenizer/chat_template.jinja": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01",
+        "tokenizer/tokenizer.json": "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5",
+        "tokenizer/tokenizer_config.json": "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+      },
+      "stats_source": "P0 R3/N10 subset stats"
+    },
+    {
+      "model_id": "R3N46",
+      "replicate": "R3",
+      "training_condition": "N46",
+      "loader": "P2",
+      "checkpoint": "~/projects/pai-final-smolvla/p2/R3/N46/checkpoint_030000",
+      "weights_sha256": "bfb3c677ecb043985371832b1feed5ab31b1552458fd375551f24d918def7db3",
+      "weight_kind": "full model",
+      "processor_sha256": "c973e4df6a38561c299028312757ced44d9e00b21ca9fe5d9661e93a348dfe72",
+      "processor_files": [
+        [
+          "policy_postprocessor.json",
+          "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a"
+        ],
+        [
+          "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+          "06a6b70a2b3ed0c1431fd5a613924e0036d17e3a3d5c169c453d122fdfd91d6c"
+        ],
+        [
+          "policy_preprocessor.json",
+          "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691"
+        ],
+        [
+          "policy_preprocessor_step_5_normalizer_processor.safetensors",
+          "06a6b70a2b3ed0c1431fd5a613924e0036d17e3a3d5c169c453d122fdfd91d6c"
+        ],
+        [
+          "tokenizer/chat_template.jinja",
+          "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01"
+        ],
+        [
+          "tokenizer/tokenizer.json",
+          "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5"
+        ],
+        [
+          "tokenizer/tokenizer_config.json",
+          "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+        ]
+      ],
+      "normalizer_files": {
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "06a6b70a2b3ed0c1431fd5a613924e0036d17e3a3d5c169c453d122fdfd91d6c",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "06a6b70a2b3ed0c1431fd5a613924e0036d17e3a3d5c169c453d122fdfd91d6c"
+      },
+      "normalizer_tensor_sha256": "96d49682525c8a2a181ddb3cdaa25289b7cec2d520e23a8f5e504a55758d43bc",
+      "checkpoint_files": {
+        "adapter/adapter_config.json": "01207813ca650f47ec235d097f24b10cbdf7180c3109beae032bb942f8aac081",
+        "config.json": "c737a91ad260a5f494cf96aa33fb92b5cb0526c152f94ada6c6f89345cfefe1f",
+        "model.safetensors": "bfb3c677ecb043985371832b1feed5ab31b1552458fd375551f24d918def7db3",
+        "policy_postprocessor.json": "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a",
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "06a6b70a2b3ed0c1431fd5a613924e0036d17e3a3d5c169c453d122fdfd91d6c",
+        "policy_preprocessor.json": "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "06a6b70a2b3ed0c1431fd5a613924e0036d17e3a3d5c169c453d122fdfd91d6c",
+        "tokenizer/chat_template.jinja": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01",
+        "tokenizer/tokenizer.json": "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5",
+        "tokenizer/tokenizer_config.json": "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+      },
+      "stats_source": "P0 R3/N46 subset stats"
+    },
+    {
+      "model_id": "R1Z20",
+      "replicate": "R1",
+      "training_condition": "Z20",
+      "loader": "Z20",
+      "checkpoint": "~/projects/pai-final-smolvla/p2/R1/N20/checkpoint_000000",
+      "weights_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+      "weight_kind": "full model",
+      "processor_sha256": "db4707164e16e52f6d49b0350c4f5a4a6ad087b0b4d12ed2290636d29e0aff86",
+      "processor_files": [
+        [
+          "policy_postprocessor.json",
+          "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a"
+        ],
+        [
+          "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+          "a092985b6bfc0caf016c8591f62099bc211672dec935603dd9daaf302e83914b"
+        ],
+        [
+          "policy_preprocessor.json",
+          "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691"
+        ],
+        [
+          "policy_preprocessor_step_5_normalizer_processor.safetensors",
+          "a092985b6bfc0caf016c8591f62099bc211672dec935603dd9daaf302e83914b"
+        ],
+        [
+          "tokenizer/chat_template.jinja",
+          "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01"
+        ],
+        [
+          "tokenizer/tokenizer.json",
+          "2500f374cdc89040032a7d8437b6ed0fe745667b1194c17914d062ee31701605"
+        ],
+        [
+          "tokenizer/tokenizer_config.json",
+          "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+        ]
+      ],
+      "normalizer_files": {
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "a092985b6bfc0caf016c8591f62099bc211672dec935603dd9daaf302e83914b",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "a092985b6bfc0caf016c8591f62099bc211672dec935603dd9daaf302e83914b"
+      },
+      "normalizer_tensor_sha256": "d10207cb0a272646b34db3fef75f08ccebee633889e0e36dcdeefd5e63b94320",
+      "checkpoint_files": {
+        "adapter/adapter_config.json": "01207813ca650f47ec235d097f24b10cbdf7180c3109beae032bb942f8aac081",
+        "config.json": "c737a91ad260a5f494cf96aa33fb92b5cb0526c152f94ada6c6f89345cfefe1f",
+        "model.safetensors": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+        "policy_postprocessor.json": "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a",
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "a092985b6bfc0caf016c8591f62099bc211672dec935603dd9daaf302e83914b",
+        "policy_preprocessor.json": "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "a092985b6bfc0caf016c8591f62099bc211672dec935603dd9daaf302e83914b",
+        "tokenizer/chat_template.jinja": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01",
+        "tokenizer/tokenizer.json": "2500f374cdc89040032a7d8437b6ed0fe745667b1194c17914d062ee31701605",
+        "tokenizer/tokenizer_config.json": "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+      },
+      "stats_source": "P0 R1/N20 subset stats"
+    },
+    {
+      "model_id": "R2Z20",
+      "replicate": "R2",
+      "training_condition": "Z20",
+      "loader": "Z20",
+      "checkpoint": "~/projects/pai-final-smolvla/p2/R2/N20/checkpoint_000000",
+      "weights_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+      "weight_kind": "full model",
+      "processor_sha256": "2470b378b88edeb0eb7a40aa40657d73419b23f4c19a900a99ff2831fd78949b",
+      "processor_files": [
+        [
+          "policy_postprocessor.json",
+          "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a"
+        ],
+        [
+          "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+          "dd6b6b30f23bcdfc4cc4082f62de987659eab00d645743d16517dc8f5b3bfcbc"
+        ],
+        [
+          "policy_preprocessor.json",
+          "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691"
+        ],
+        [
+          "policy_preprocessor_step_5_normalizer_processor.safetensors",
+          "dd6b6b30f23bcdfc4cc4082f62de987659eab00d645743d16517dc8f5b3bfcbc"
+        ],
+        [
+          "tokenizer/chat_template.jinja",
+          "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01"
+        ],
+        [
+          "tokenizer/tokenizer.json",
+          "2500f374cdc89040032a7d8437b6ed0fe745667b1194c17914d062ee31701605"
+        ],
+        [
+          "tokenizer/tokenizer_config.json",
+          "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+        ]
+      ],
+      "normalizer_files": {
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "dd6b6b30f23bcdfc4cc4082f62de987659eab00d645743d16517dc8f5b3bfcbc",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "dd6b6b30f23bcdfc4cc4082f62de987659eab00d645743d16517dc8f5b3bfcbc"
+      },
+      "normalizer_tensor_sha256": "093481de39413f278c9db5eb6645a9d858ad7443263050d5f979380ff1422b12",
+      "checkpoint_files": {
+        "adapter/adapter_config.json": "01207813ca650f47ec235d097f24b10cbdf7180c3109beae032bb942f8aac081",
+        "config.json": "c737a91ad260a5f494cf96aa33fb92b5cb0526c152f94ada6c6f89345cfefe1f",
+        "model.safetensors": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+        "policy_postprocessor.json": "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a",
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "dd6b6b30f23bcdfc4cc4082f62de987659eab00d645743d16517dc8f5b3bfcbc",
+        "policy_preprocessor.json": "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "dd6b6b30f23bcdfc4cc4082f62de987659eab00d645743d16517dc8f5b3bfcbc",
+        "tokenizer/chat_template.jinja": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01",
+        "tokenizer/tokenizer.json": "2500f374cdc89040032a7d8437b6ed0fe745667b1194c17914d062ee31701605",
+        "tokenizer/tokenizer_config.json": "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+      },
+      "stats_source": "P0 R2/N20 subset stats"
+    },
+    {
+      "model_id": "R3Z20",
+      "replicate": "R3",
+      "training_condition": "Z20",
+      "loader": "Z20",
+      "checkpoint": "~/projects/pai-final-smolvla/p2/R3/N20/checkpoint_000000",
+      "weights_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+      "weight_kind": "full model",
+      "processor_sha256": "c3ec1ae3e1dae81d2accc907f300323d807bccaa312a8a9285f4e360bf5923b8",
+      "processor_files": [
+        [
+          "policy_postprocessor.json",
+          "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a"
+        ],
+        [
+          "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+          "aa98fbd5268f2ba11158d35aac78f16742399306648781550f02d33bef19cba6"
+        ],
+        [
+          "policy_preprocessor.json",
+          "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691"
+        ],
+        [
+          "policy_preprocessor_step_5_normalizer_processor.safetensors",
+          "aa98fbd5268f2ba11158d35aac78f16742399306648781550f02d33bef19cba6"
+        ],
+        [
+          "tokenizer/chat_template.jinja",
+          "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01"
+        ],
+        [
+          "tokenizer/tokenizer.json",
+          "2500f374cdc89040032a7d8437b6ed0fe745667b1194c17914d062ee31701605"
+        ],
+        [
+          "tokenizer/tokenizer_config.json",
+          "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+        ]
+      ],
+      "normalizer_files": {
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "aa98fbd5268f2ba11158d35aac78f16742399306648781550f02d33bef19cba6",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "aa98fbd5268f2ba11158d35aac78f16742399306648781550f02d33bef19cba6"
+      },
+      "normalizer_tensor_sha256": "debce1c1e5a420dbda3622c8cef506cf0fed210953cd9c61f051697820457ec3",
+      "checkpoint_files": {
+        "adapter/adapter_config.json": "01207813ca650f47ec235d097f24b10cbdf7180c3109beae032bb942f8aac081",
+        "config.json": "c737a91ad260a5f494cf96aa33fb92b5cb0526c152f94ada6c6f89345cfefe1f",
+        "model.safetensors": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+        "policy_postprocessor.json": "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a",
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "aa98fbd5268f2ba11158d35aac78f16742399306648781550f02d33bef19cba6",
+        "policy_preprocessor.json": "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "aa98fbd5268f2ba11158d35aac78f16742399306648781550f02d33bef19cba6",
+        "tokenizer/chat_template.jinja": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01",
+        "tokenizer/tokenizer.json": "2500f374cdc89040032a7d8437b6ed0fe745667b1194c17914d062ee31701605",
+        "tokenizer/tokenizer_config.json": "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+      },
+      "stats_source": "P0 R3/N20 subset stats"
+    },
+    {
+      "model_id": "OLD46",
+      "replicate": "common",
+      "training_condition": "OLD46",
+      "loader": "OLD46",
+      "checkpoint": "~/projects/demo-d3/outputs/phase2_lora_r16_s30000_46ep/checkpoints/030000/pretrained_model",
+      "weights_sha256": "5b0f3c3ecafae0dc1b877a1e2537fdfec09547ecc37028c2adcb3957d47b814a",
+      "weight_kind": "LoRA adapter on frozen base",
+      "processor_sha256": "54c40c55e1bb715e6b7c173270475a9881f9928dde4fe94b762f386176c12fa5",
+      "processor_files": [
+        [
+          "policy_postprocessor.json",
+          "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a"
+        ],
+        [
+          "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+          "a002c0df7f79c5b169c5a899ad151d4ea1bed246c7d82bd93ed1556558d517a9"
+        ],
+        [
+          "policy_preprocessor.json",
+          "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691"
+        ],
+        [
+          "policy_preprocessor_step_5_normalizer_processor.safetensors",
+          "f98234b21ce8ffacf1b86657f3cf8e24ac6c31ebcd6a3b83cecd484439674306"
+        ],
+        [
+          "tokenizer/chat_template.jinja",
+          "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01"
+        ],
+        [
+          "tokenizer/tokenizer.json",
+          "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5"
+        ],
+        [
+          "tokenizer/tokenizer_config.json",
+          "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+        ]
+      ],
+      "normalizer_files": {
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "a002c0df7f79c5b169c5a899ad151d4ea1bed246c7d82bd93ed1556558d517a9",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "f98234b21ce8ffacf1b86657f3cf8e24ac6c31ebcd6a3b83cecd484439674306"
+      },
+      "normalizer_tensor_sha256": null,
+      "checkpoint_files": {
+        "adapter_config.json": "b1f3cf77b361d7ec7c024180cdf8881d00b62d6367580216ed3d108cf2d1b814",
+        "adapter_model.safetensors": "5b0f3c3ecafae0dc1b877a1e2537fdfec09547ecc37028c2adcb3957d47b814a",
+        "config.json": "5a33d73b0b77c979b2317be6a3d3a2501247a4cb93de22752a1fb2128a1a6a98",
+        "policy_postprocessor.json": "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a",
+        "policy_postprocessor_step_0_unnormalizer_processor.safetensors": "a002c0df7f79c5b169c5a899ad151d4ea1bed246c7d82bd93ed1556558d517a9",
+        "policy_preprocessor.json": "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691",
+        "policy_preprocessor_step_5_normalizer_processor.safetensors": "f98234b21ce8ffacf1b86657f3cf8e24ac6c31ebcd6a3b83cecd484439674306",
+        "tokenizer/chat_template.jinja": "830005085ddd94cec605b6e21b885b28ffad6e3f82ee6a212c523533e8f04f01",
+        "tokenizer/tokenizer.json": "b90474ce689a6f06dc920d3ebdb1f9cb8d3608da9e93b8b4eae63e9101bbc5d5",
+        "tokenizer/tokenizer_config.json": "fd87e003eef34b916fce3386cfe07c513a56c5bdc7b83e2c7da93cad2efee9c3"
+      },
+      "stats_source": "original distributed processor"
+    }
+  ],
+  "code_sha256": {
+    "eval_paired.py": "832182d0099846a1884cf5ff21cd17dbcca8d00c8196a5ad26adc33e2a218820",
+    "eval_p3.py": "40d7f43c34affe9d87553ad506196a2925209dbf62b99df365dac4a14c3a9abc",
+    "brightness_transform.py": "11337f808aa4f249f1cb37f18a55fcae6effa2532e1b993a7a09bd40219d5a33",
+    "p1_runtime.py": "2cc8195086daca534bdb92215a1b815b041e4ba7a7a7b23790614bf06e993736",
+    "run_p3.py": "bfcb0ea6c4bde030e5fbb914168ae5128f2fe7209922b974ad48f7e279da5805",
+    "prepare_p3.py": "ba0ffd0a2834a8ebb6ca502f994274de990033faf3b7f6415485c1839a088459",
+    "freeze_p3.py": "998bc128fcfd3829b94dae0bd8dd8429de299990738eb9ccab02a4bb04ccf594"
+  },
+  "evaluation_json_original": {
+    "init_state_file_sha256": "27d5b81d739f969e40c72b6c88699e57a91ea61209946b21c593aae5990689cb",
+    "confirmed_init_state_shape": [
+      50,
+      92
+    ],
+    "development_state_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "historical_or_diagnostic_indices": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "proposed_final_state_indices": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "split_requires_historical_usage_check": true,
+    "training_demonstration_disjointness": "NOT_ESTABLISHED",
+    "brightness_factors": {
+      "clean": 1,
+      "dim": 0.65,
+      "bright": 1.35
+    },
+    "brightness_domain": "digital multiplication of rendered RGB input; not physical relighting",
+    "state_rng_base": 20263010,
+    "policy_rng_base": 20264010,
+    "hard_reset": true,
+    "control_frequency_hz": 20,
+    "max_control_steps": 280,
+    "initial_settling_steps": 10,
+    "record_all_final_rollouts": true,
+    "new_trained_models": 4,
+    "new_model_final_rollouts": 240,
+    "zero_update_controls": 1,
+    "zero_update_final_rollouts": 60,
+    "legacy_reference_models": 1,
+    "legacy_reference_final_rollouts": 60,
+    "total_final_rollouts": 360,
+    "success_rule": "Use saved revision LIBERO check_success; finish on success or 280 control steps; do not extend time by condition",
+    "counts_scope": "required_R1_only",
+    "with_optional_replicates": {
+      "included_replicates": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "new_trained_models": 12,
+      "new_model_final_rollouts": 720,
+      "zero_update_controls": 3,
+      "zero_update_final_rollouts": 180,
+      "legacy_reference_models": 1,
+      "legacy_reference_final_rollouts": 60,
+      "total_final_rollouts": 960,
+      "additional_final_rollouts": 600
+    },
+    "historical_usage_review": {
+      "phase": "P0",
+      "inspect": "Legacy eval.batch_size=10 across three batches: init_state_id advancement, resets and saved logs",
+      "default_label": "本計画の開発・モデル選定に使用しない固定評価条件",
+      "when_unverified": "Retain default label from P0 onward; do not claim historically unused states",
+      "training_demonstration_disjointness": "NOT_ESTABLISHED"
+    }
+  },
+  "conditions": {
+    "indices": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "waves": {
+      "A": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "B": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    "brightness_factors": {
+      "clean": 1,
+      "dim": 0.65,
+      "bright": 1.35
+    },
+    "hard_reset": true,
+    "initial_settling_steps": 10,
+    "control_frequency_hz": 20,
+    "max_control_steps": 280,
+    "success_rule": "Use saved revision LIBERO check_success; finish on success or 280 control steps; do not extend time by condition",
+    "state_rng_base": 20263010,
+    "policy_rng_base": 20264010,
+    "environment_order": "ascending global index within each wave; local slots 0..9",
+    "environment_seed_formula": "20263010 + global initial_state_index",
+    "policy_seed_timing": "after model loading, before model.reset; identical in every wave",
+    "environment_lifecycle": "new 10 worker processes for every wave; first rollout only",
+    "image_processing": "same fixed k for both cameras throughout trial; clip(k*RGB,0,1) before policy preprocessing",
+    "video_fps": 80,
+    "video_timebase": "one saved frame = one 20 Hz control interval; P4 must correct playback timebase",
+    "completed_environment_batch_slots": "retain last observation as in P1; no automatic reset"
+  },
+  "execution_order": [
+    {
+      "model_id": "R1N20",
+      "condition": "clean",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R1N20",
+      "condition": "clean",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R1N20",
+      "condition": "dim",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R1N20",
+      "condition": "dim",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R1N20",
+      "condition": "bright",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R1N20",
+      "condition": "bright",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R1N20B",
+      "condition": "clean",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R1N20B",
+      "condition": "clean",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R1N20B",
+      "condition": "dim",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R1N20B",
+      "condition": "dim",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R1N20B",
+      "condition": "bright",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R1N20B",
+      "condition": "bright",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R1N10",
+      "condition": "clean",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R1N10",
+      "condition": "clean",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R1N10",
+      "condition": "dim",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R1N10",
+      "condition": "dim",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R1N10",
+      "condition": "bright",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R1N10",
+      "condition": "bright",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R1N46",
+      "condition": "clean",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R1N46",
+      "condition": "clean",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R1N46",
+      "condition": "dim",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R1N46",
+      "condition": "dim",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R1N46",
+      "condition": "bright",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R1N46",
+      "condition": "bright",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R2N20",
+      "condition": "clean",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R2N20",
+      "condition": "clean",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R2N20",
+      "condition": "dim",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R2N20",
+      "condition": "dim",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R2N20",
+      "condition": "bright",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R2N20",
+      "condition": "bright",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R2N20B",
+      "condition": "clean",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R2N20B",
+      "condition": "clean",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R2N20B",
+      "condition": "dim",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R2N20B",
+      "condition": "dim",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R2N20B",
+      "condition": "bright",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R2N20B",
+      "condition": "bright",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R2N10",
+      "condition": "clean",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R2N10",
+      "condition": "clean",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R2N10",
+      "condition": "dim",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R2N10",
+      "condition": "dim",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R2N10",
+      "condition": "bright",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R2N10",
+      "condition": "bright",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R2N46",
+      "condition": "clean",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R2N46",
+      "condition": "clean",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R2N46",
+      "condition": "dim",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R2N46",
+      "condition": "dim",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R2N46",
+      "condition": "bright",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R2N46",
+      "condition": "bright",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R3N20",
+      "condition": "clean",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R3N20",
+      "condition": "clean",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R3N20",
+      "condition": "dim",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R3N20",
+      "condition": "dim",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R3N20",
+      "condition": "bright",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R3N20",
+      "condition": "bright",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R3N20B",
+      "condition": "clean",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R3N20B",
+      "condition": "clean",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R3N20B",
+      "condition": "dim",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R3N20B",
+      "condition": "dim",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R3N20B",
+      "condition": "bright",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R3N20B",
+      "condition": "bright",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R3N10",
+      "condition": "clean",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R3N10",
+      "condition": "clean",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R3N10",
+      "condition": "dim",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R3N10",
+      "condition": "dim",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R3N10",
+      "condition": "bright",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R3N10",
+      "condition": "bright",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R3N46",
+      "condition": "clean",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R3N46",
+      "condition": "clean",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R3N46",
+      "condition": "dim",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R3N46",
+      "condition": "dim",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R3N46",
+      "condition": "bright",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R3N46",
+      "condition": "bright",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R1Z20",
+      "condition": "clean",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R1Z20",
+      "condition": "clean",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R1Z20",
+      "condition": "dim",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R1Z20",
+      "condition": "dim",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R1Z20",
+      "condition": "bright",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R1Z20",
+      "condition": "bright",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R2Z20",
+      "condition": "clean",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R2Z20",
+      "condition": "clean",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R2Z20",
+      "condition": "dim",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R2Z20",
+      "condition": "dim",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R2Z20",
+      "condition": "bright",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R2Z20",
+      "condition": "bright",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R3Z20",
+      "condition": "clean",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R3Z20",
+      "condition": "clean",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R3Z20",
+      "condition": "dim",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R3Z20",
+      "condition": "dim",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "R3Z20",
+      "condition": "bright",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "R3Z20",
+      "condition": "bright",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "OLD46",
+      "condition": "clean",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "OLD46",
+      "condition": "clean",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "OLD46",
+      "condition": "dim",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "OLD46",
+      "condition": "dim",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "model_id": "OLD46",
+      "condition": "bright",
+      "wave": "A",
+      "indices": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "model_id": "OLD46",
+      "condition": "bright",
+      "wave": "B",
+      "indices": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    }
+  ],
+  "planned_trials": 960,
+  "pruned_init_sha256": "27d5b81d739f969e40c72b6c88699e57a91ea61209946b21c593aae5990689cb",
+  "pruned_init_verification": "full file hash checked after this freeze and before extraction/use; no pre-freeze final-state evaluation",
+  "lerobot_head": "7427f31801f944f5ec9ce53cda02862ce7d1638b",
+  "base_revision": "c83c3163b8ca9b7e67c509fffd9121e66cb96205",
+  "base_weights_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+  "dataset_snapshot": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e",
+  "dataset_revision": "86958911c0f959db2bbbdb107eb3e17c5f9c798e",
+  "dataset_shards": [
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-311.parquet",
+      "sha256": "31524b714b17ffbd953acd9688040c923e18ef70b8a1d378f58c891be8a0c061"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-312.parquet",
+      "sha256": "0712b52f923a24a6e3ceb8cbd347cd69e33792276a16c099c799703f825947e1"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-314.parquet",
+      "sha256": "a0db9954708317dc9a9e81c934c922c0d1e6bd73e9ec181ed967b6e5915beb08"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-316.parquet",
+      "sha256": "80daf54676a973c6b286f65dc21367c88c4ad3ccdb9567b74364382646583dfe"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-317.parquet",
+      "sha256": "6dbf0b13e20a5a64cb8b90712537e747a9e44bc01f62eae07f14dd0b09d7f368"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-321.parquet",
+      "sha256": "cb08e9faba2e3453a28f7fb23b72e47b59aeff9a8c5370fd25d5265d2c5ec043"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-322.parquet",
+      "sha256": "665cdc82c5e85017e5bdfc33b938ae731ba677a4d21e77d878d9a72087db03f5"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-323.parquet",
+      "sha256": "4494d651e2a959354895f6dc4dbc9e31f6a68a8e7e6341670fce2d2b4b64646e"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-326.parquet",
+      "sha256": "fc2b7251b8fe44ef08665597c720adf2be54403adb180606f8dea371edb4083c"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-327.parquet",
+      "sha256": "65a70bbdacb977745bdb09ffbb336f32cd52393f1fb03e5cddfa022682f2c4cc"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-334.parquet",
+      "sha256": "c062d24113914dccf2f8766a1e5af56f6504e3348248e71d9669fc8592677c71"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-335.parquet",
+      "sha256": "1d65c7f43712b128c2ba428686de1a86563607a3810a6c451a65489dbdedc510"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-336.parquet",
+      "sha256": "851244d41bf1c78799e963816710fa0d5c17f84433be0b19e284ae08a3ade4b7"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-337.parquet",
+      "sha256": "f4b1eb7946df179d1c92741d71ef1b08d7ac6add31f0ef04dd99205b006c96f3"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-339.parquet",
+      "sha256": "7eca7d9d2947562a23d78ad1f4df742a18bc5550b2545cf54447ce5515871119"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-340.parquet",
+      "sha256": "be3034d8d1f76693e4e394d7f63a7fad12e5b77e32879cb07c0a3da83c0bbe53"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-342.parquet",
+      "sha256": "b83d42c36dd2c562e0fb72be69e2f16b69ce60dc1b10024b1ae9e6f39774b766"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-343.parquet",
+      "sha256": "dda9b82b28def689c9c78c25fa08ccf2ee2d4a28b81cec2e7a65691b47a8c74f"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-347.parquet",
+      "sha256": "1360807513ff84030d415491f2fe33f191970bb95831b9b6d836dfdcad23379d"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-348.parquet",
+      "sha256": "4397415b1f760497739a95e8fb849632a6f7934f3179175361bede896da8d5ca"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-353.parquet",
+      "sha256": "261f3a19b6c02221e0c1c1590bebc73547b028137ebbf177807b014ad7f43b71"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-354.parquet",
+      "sha256": "08cb2f88988c31b6f01bbe7b5062ce153f5739f9eb82dce7f4bd88d004e38e68"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-355.parquet",
+      "sha256": "5cbdf88fc9172499d17efe84051371d6277300ade5f2f919db38d1994e9b4392"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-357.parquet",
+      "sha256": "8e44f0bbbfefe1dca1bead2e9a1be5ede67b6eba9b0d2aa47f67d560b2b47e7b"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-362.parquet",
+      "sha256": "aa1bb02313f6a03adc932d1bc75801f5b4144bb82b3e8ddb250cd8bb84c9b4fe"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-365.parquet",
+      "sha256": "4fccc640f47492e0dc401c00fd48e5a366666b1f677ff13e4bd3d15ed76f672a"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-368.parquet",
+      "sha256": "b3428d3684804c3db94a62d8b67f8332ca31d934a92c2556c3d80d255ce04e97"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-370.parquet",
+      "sha256": "7e268513770b6695a9f64cd2da5820be5cb4b7349261c95d76504d26a20cd786"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-371.parquet",
+      "sha256": "e7b7766df117f751aee1953ef13ac502426403008804b8bd28b2e21a3e86d2bd"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-372.parquet",
+      "sha256": "d0f94877ce7cc1c17f06edb19f177a5c7d34faa9d1d88eff21cc9aa03a786028"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-374.parquet",
+      "sha256": "62afbdbb9036349e90638cc55453d8ee6d4a35918030b9f383a9b77aa9799f5b"
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-375.parquet",
+      "sha256": "17f67296cfe910acd3c0425a9dec501959561385afdd34581048a890ddf762c1"
+    }
+  ],
+  "preflight": {
+    "compute_processes": "",
+    "Xorg_display_excluded": true,
+    "free_GiB": 341.9583282470703,
+    "p2_manifest_sha256": "25e3df7e9f4a865ae2c600c76491400731b8720683a9e09e2ede5e86471106f7"
+  },
+  "changes_from_P1_P2": [
+    "route final states30..49 as two ten-state arrays with global-index seeds",
+    "route 12 final checkpoints + 3 zero-update N20 checkpoints + OLD46 original processor",
+    "record required trial metadata and first model-input tensors; no RNG calls added",
+    "compare hashes by global index and report mismatches without abort, as instructed",
+    "freeze verification, error accounting and resource monitoring outside evaluation logic"
+  ],
+  "control_logic_unchanged": [
+    "hard reset/settle10/control20Hz/max280/check_success",
+    "batch10 order and policy RNG reset",
+    "preprocess->env_pre->brightness->policy_pre->select_action->policy_post->env_post",
+    "active-environment stepping; retain completed slots; raw camera orientation and video encoding"
+  ],
+  "technical_error_policy": {
+    "max_retries_per_failed_trial": 1,
+    "task_failure_retry": false,
+    "batch_retry": "reconstruct identical full wave to preserve policy batch RNG; accept only failed trial indices; other rows retained from attempt1",
+    "wave_process_failure": "mark all ten unfinished result rows technical_error; stop threshold takes precedence over retry",
+    "stop_cell_unique_error_trials": 3,
+    "stop_overall_unique_error_trials": 20,
+    "unresolved": "leave success null; reduce completed denominator, retain planned count"
+  },
+  "stop_rules": [
+    "any frozen asset mismatch",
+    "evaluation logic change required",
+    "GPU OOM",
+    "projected evaluation over10800seconds",
+    "free disk below50GiB",
+    "technical error thresholds"
+  ],
+  "representative_input_rule": "control_step0, after policy preprocessor, two exact float CHW tensors + PNG previews; capture does not consume RNG",
+  "state_scope_label": "本計画の開発・モデル選定に使用しない固定評価条件",
+  "training_demonstration_disjointness": "NOT_ESTABLISHED",
+  "loss_interpretation": "subset-dependent normalization gives different loss scales; training loss and development0..9 are not final success evidence"
+}

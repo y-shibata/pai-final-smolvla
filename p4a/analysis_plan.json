@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "phase": "P4a",
+  "created_before_p4a_computation": true,
+  "source": "~/projects/pai-final-smolvla/p3/results_all.csv",
+  "source_sha256": "7a471f593805c18d1266d0033fca5ec9d775659d3216487851a60ea902a06190",
+  "freeze_sha256": "e2173452be653a4c17a377a91f9991afecf5126328400efe425fa7c817f5ff5f",
+  "plan_md5": "6ccbb83f0f1449bcce0f1fd94556b81b",
+  "indices": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "pair_keys": [
+    "replicate",
+    "condition",
+    "initial_state_index"
+  ],
+  "contrast": "N20B minus N20",
+  "primary": {
+    "replicates": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "conditions": [
+      "dim",
+      "bright"
+    ],
+    "summaries": [
+      "each_replicate",
+      "equal_weight_mean_of_3_replicates"
+    ],
+    "condition_pool": "dim and bright equal weights",
+    "units": "percentage points",
+    "denominators": "20 per replicate/condition; 40 per replicate/equal; 60 per mean/condition; 120 per mean/equal; repeated observations are NOT independent configurations"
+  },
+  "interval": {
+    "method": "paired initial-index cluster bootstrap, percentile",
+    "confidence": 0.95,
+    "resamples": 100000,
+    "seed": 20261011,
+    "rng": "numpy.random.Generator(numpy.random.PCG64)",
+    "draw": "100000 by 20 integer draws in [0,20); each selected index carries every condition and every replicate together",
+    "quantiles": [
+      0.025,
+      0.975
+    ],
+    "quantile_method": "linear",
+    "interpretation": "exploratory reference intervals conditional on these 20 configurations, three trained runs and one task; no training-seed-population or cross-task inference; no multiplicity adjustment"
+  },
+  "p_values": {
+    "calculate": false,
+    "reason": "Exploratory descriptive comparisons; no p-values or significance labels"
+  },
+  "secondary": {
+    "clean": "same paired contrast and same pre-generated bootstrap indices, descriptive secondary",
+    "all_models": "success counts/20 per condition and clean minus dim/bright percentage-point drops",
+    "demonstrations": "N10,N20,N46 clean each replicate, mean and min/max; do not imply monotonic gain",
+    "zero_update": "Z20 0/180 total and per-cell denominators; compare only within tested setup",
+    "OLD46": "different normalization statistics: supplied stats vs subset recomputation; not otherwise-equivalent comparison",
+    "loss": "not analyzed or plotted; subset scales differ",
+    "development_target": "three-run primary equal-weight difference >=10 pp, clean difference >=-5 pp, at least 2/3 positive primary replicate differences; not a statistical criterion"
+  },
+  "video_selection": {
+    "replicate": "R1",
+    "condition_priority": [
+      "dim",
+      "bright",
+      "clean"
+    ],
+    "per_condition": [
+      "minimum index with N20 failure and N20B success",
+      "minimum index with N20B failure"
+    ],
+    "fallback": "if a category has no qualifying trial, state absent and choose smallest index matched pair",
+    "timebase": "metadata frame/control_step; simulation seconds=step/20; 2x seconds=step/40; raw80 seconds=frame/80"
+  },
+  "exclusions": "none",
+  "method_change_policy": "stop and report; do not revise after computing",
+  "written_at_utc": "2026-10-11T03:02:39.018178+00:00"
+}

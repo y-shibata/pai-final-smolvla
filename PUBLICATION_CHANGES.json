@@ -1,0 +1,28 @@
+{
+  "path_only_normalizations": [
+    {
+      "file": "configs/legacy/train_config.json",
+      "change": "home prefix to ~",
+      "original_sha256": "e8831e4c81cc35918f004d849ac616151c370dccdf2f26827fbc92832663cdae"
+    },
+    {
+      "file": "configs/legacy/phase2_selected_shards.sha256",
+      "change": "home prefix to ~",
+      "original_sha256": "60682c35ef049425940f5f4906bbab1712ed605d0bcf11590f0617e62c80b240"
+    }
+  ],
+  "figure2": "Vertical positions and panel heights adjusted in P4b; unchanged CSV and calculations. See publication/render_fig2.py.",
+  "archive_note": "Original training/evaluation/analysis code is preserved. Publication scripts are separate.",
+  "publication_20261027": {
+    "github_url": "https://github.com/y-shibata/pai-final-smolvla",
+    "youtube_url": "https://youtu.be/i8rYx3zfnrA",
+    "pdf": "docs/説明資料_PAI最終課題_y-shibata.pdf",
+    "changes": [
+      "PDF page 8: added verified GitHub and YouTube links. Other page text unchanged.",
+      "Renamed the public PDF from ACCOUNT to y-shibata.",
+      "README: added submission links and publication date.",
+      "SHA256SUMS: regenerated after publication metadata updates."
+    ],
+    "experiment_data_and_video": "Unchanged from the verified P4b v2 artifacts."
+  }
+}

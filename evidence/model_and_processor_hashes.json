@@ -1,0 +1,74 @@
+{
+  "files": [
+    {
+      "path": "~/projects/demo-d3/hf_cache/hub/models--lerobot--smolvla_base/snapshots/c83c3163b8ca9b7e67c509fffd9121e66cb96205/config.json",
+      "sha256": "650584b56c104720f7a3c91d1ec6bec9e8de8ac11e60c92ba2fa82d93eda147d",
+      "bytes": 2299
+    },
+    {
+      "path": "~/projects/demo-d3/hf_cache/hub/models--lerobot--smolvla_base/snapshots/c83c3163b8ca9b7e67c509fffd9121e66cb96205/model.safetensors",
+      "sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+      "bytes": 906712520
+    },
+    {
+      "path": "~/projects/demo-d3/hf_cache/hub/models--lerobot--smolvla_base/snapshots/c83c3163b8ca9b7e67c509fffd9121e66cb96205/policy_postprocessor.json",
+      "sha256": "2b78bb742065288df2ec63b0ee35f97a1f6950171cf2272f7e34b1fe3873b17b",
+      "bytes": 660
+    },
+    {
+      "path": "~/projects/demo-d3/hf_cache/hub/models--lerobot--smolvla_base/snapshots/c83c3163b8ca9b7e67c509fffd9121e66cb96205/policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+      "sha256": "490ab239d96e263687c0b2e386a0afbc235a2eceb9857c36ed32f2f162a3e7c8",
+      "bytes": 640
+    },
+    {
+      "path": "~/projects/demo-d3/hf_cache/hub/models--lerobot--smolvla_base/snapshots/c83c3163b8ca9b7e67c509fffd9121e66cb96205/policy_preprocessor.json",
+      "sha256": "7683d648280a72f0d51e869fb8dd1596beed90b7f84849330cf1bc26634a4bd6",
+      "bytes": 1872
+    },
+    {
+      "path": "~/projects/demo-d3/hf_cache/hub/models--lerobot--smolvla_base/snapshots/c83c3163b8ca9b7e67c509fffd9121e66cb96205/policy_preprocessor_step_5_normalizer_processor.safetensors",
+      "sha256": "490ab239d96e263687c0b2e386a0afbc235a2eceb9857c36ed32f2f162a3e7c8",
+      "bytes": 640
+    },
+    {
+      "path": "~/projects/demo-d3/outputs/phase2_lora_r16_s30000_46ep/checkpoints/030000/pretrained_model/adapter_config.json",
+      "sha256": "b1f3cf77b361d7ec7c024180cdf8881d00b62d6367580216ed3d108cf2d1b814",
+      "bytes": 1290
+    },
+    {
+      "path": "~/projects/demo-d3/outputs/phase2_lora_r16_s30000_46ep/checkpoints/030000/pretrained_model/adapter_model.safetensors",
+      "sha256": "5b0f3c3ecafae0dc1b877a1e2537fdfec09547ecc37028c2adcb3957d47b814a",
+      "bytes": 2981888
+    },
+    {
+      "path": "~/projects/demo-d3/outputs/phase2_lora_r16_s30000_46ep/checkpoints/030000/pretrained_model/config.json",
+      "sha256": "5a33d73b0b77c979b2317be6a3d3a2501247a4cb93de22752a1fb2128a1a6a98",
+      "bytes": 2309
+    },
+    {
+      "path": "~/projects/demo-d3/outputs/phase2_lora_r16_s30000_46ep/checkpoints/030000/pretrained_model/policy_postprocessor.json",
+      "sha256": "3b51f092c70c710ce0213ee1b63bf51b4878ec67828dd2d67daf9ef51081a41a",
+      "bytes": 660
+    },
+    {
+      "path": "~/projects/demo-d3/outputs/phase2_lora_r16_s30000_46ep/checkpoints/030000/pretrained_model/policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+      "sha256": "a002c0df7f79c5b169c5a899ad151d4ea1bed246c7d82bd93ed1556558d517a9",
+      "bytes": 7668
+    },
+    {
+      "path": "~/projects/demo-d3/outputs/phase2_lora_r16_s30000_46ep/checkpoints/030000/pretrained_model/policy_preprocessor.json",
+      "sha256": "e2fd1f7c59d367747d230b0fea60fa19f4c76c193f0e7f869fa9e11b4d5ff691",
+      "bytes": 1753
+    },
+    {
+      "path": "~/projects/demo-d3/outputs/phase2_lora_r16_s30000_46ep/checkpoints/030000/pretrained_model/policy_preprocessor_step_5_normalizer_processor.safetensors",
+      "sha256": "f98234b21ce8ffacf1b86657f3cf8e24ac6c31ebcd6a3b83cecd484439674306",
+      "bytes": 7676
+    },
+    {
+      "path": "~/projects/demo-d3/outputs/phase2_lora_r16_s30000_46ep/checkpoints/030000/pretrained_model/train_config.json",
+      "sha256": "e8831e4c81cc35918f004d849ac616151c370dccdf2f26827fbc92832663cdae",
+      "bytes": 12268
+    }
+  ]
+}

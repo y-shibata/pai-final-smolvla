@@ -1,0 +1,146 @@
+{
+  "status": "PASS",
+  "at_utc": "2026-10-10T23:52:35.833151+00:00",
+  "replicate": "R3",
+  "condition": "N20B",
+  "plan_md5_verified_on_mac": "6ccbb83f0f1449bcce0f1fd94556b81b",
+  "lerobot_head": "7427f31801f944f5ec9ce53cda02862ce7d1638b",
+  "lerobot_status": "",
+  "base_snapshot": "~/projects/demo-d3/hf_cache/hub/models--lerobot--smolvla_base/snapshots/c83c3163b8ca9b7e67c509fffd9121e66cb96205",
+  "base_revision": "c83c3163b8ca9b7e67c509fffd9121e66cb96205",
+  "base_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+  "dataset_snapshot": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e",
+  "dataset_revision": "86958911c0f959db2bbbdb107eb3e17c5f9c798e",
+  "subset_checks": [
+    {
+      "path": "subsets/R3/N20B/selection.json",
+      "sha256": "ed7a3b0e78c500121b0d30a0d807d58288ad4f96252c6ae9ad6cc98791aea9ef",
+      "expected_sha256": "ed7a3b0e78c500121b0d30a0d807d58288ad4f96252c6ae9ad6cc98791aea9ef",
+      "equal": true
+    },
+    {
+      "path": "subsets/R3/N20B/stats.json",
+      "sha256": "c3556fad8125fb12ed0966a8ce0d5e7733d1b6d03318054d3b02a6ba4a554741",
+      "expected_sha256": "c3556fad8125fb12ed0966a8ce0d5e7733d1b6d03318054d3b02a6ba4a554741",
+      "equal": true
+    },
+    {
+      "path": "subsets/manifest.json",
+      "sha256": "f3130da8becde79fb594a55509f822da19296cfd05bd8c4e1556eac20e465198",
+      "expected_sha256": "f3130da8becde79fb594a55509f822da19296cfd05bd8c4e1556eac20e465198",
+      "equal": true
+    },
+    {
+      "path": "evidence/source_inventory.json",
+      "sha256": "4d1ced1a4051c56818d053123ebbb005cfb2a9654643df4ceb8e7adf8f0ec1c2",
+      "expected_sha256": "4d1ced1a4051c56818d053123ebbb005cfb2a9654643df4ceb8e7adf8f0ec1c2",
+      "equal": true
+    }
+  ],
+  "source_shards": [
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-311.parquet",
+      "sha256": "31524b714b17ffbd953acd9688040c923e18ef70b8a1d378f58c891be8a0c061",
+      "matches_P0": true
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-316.parquet",
+      "sha256": "80daf54676a973c6b286f65dc21367c88c4ad3ccdb9567b74364382646583dfe",
+      "matches_P0": true
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-317.parquet",
+      "sha256": "6dbf0b13e20a5a64cb8b90712537e747a9e44bc01f62eae07f14dd0b09d7f368",
+      "matches_P0": true
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-321.parquet",
+      "sha256": "cb08e9faba2e3453a28f7fb23b72e47b59aeff9a8c5370fd25d5265d2c5ec043",
+      "matches_P0": true
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-322.parquet",
+      "sha256": "665cdc82c5e85017e5bdfc33b938ae731ba677a4d21e77d878d9a72087db03f5",
+      "matches_P0": true
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-326.parquet",
+      "sha256": "fc2b7251b8fe44ef08665597c720adf2be54403adb180606f8dea371edb4083c",
+      "matches_P0": true
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-327.parquet",
+      "sha256": "65a70bbdacb977745bdb09ffbb336f32cd52393f1fb03e5cddfa022682f2c4cc",
+      "matches_P0": true
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-334.parquet",
+      "sha256": "c062d24113914dccf2f8766a1e5af56f6504e3348248e71d9669fc8592677c71",
+      "matches_P0": true
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-336.parquet",
+      "sha256": "851244d41bf1c78799e963816710fa0d5c17f84433be0b19e284ae08a3ade4b7",
+      "matches_P0": true
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-339.parquet",
+      "sha256": "7eca7d9d2947562a23d78ad1f4df742a18bc5550b2545cf54447ce5515871119",
+      "matches_P0": true
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-342.parquet",
+      "sha256": "b83d42c36dd2c562e0fb72be69e2f16b69ce60dc1b10024b1ae9e6f39774b766",
+      "matches_P0": true
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-343.parquet",
+      "sha256": "dda9b82b28def689c9c78c25fa08ccf2ee2d4a28b81cec2e7a65691b47a8c74f",
+      "matches_P0": true
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-347.parquet",
+      "sha256": "1360807513ff84030d415491f2fe33f191970bb95831b9b6d836dfdcad23379d",
+      "matches_P0": true
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-353.parquet",
+      "sha256": "261f3a19b6c02221e0c1c1590bebc73547b028137ebbf177807b014ad7f43b71",
+      "matches_P0": true
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-355.parquet",
+      "sha256": "5cbdf88fc9172499d17efe84051371d6277300ade5f2f919db38d1994e9b4392",
+      "matches_P0": true
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-362.parquet",
+      "sha256": "aa1bb02313f6a03adc932d1bc75801f5b4144bb82b3e8ddb250cd8bb84c9b4fe",
+      "matches_P0": true
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-365.parquet",
+      "sha256": "4fccc640f47492e0dc401c00fd48e5a366666b1f677ff13e4bd3d15ed76f672a",
+      "matches_P0": true
+    },
+    {
+      "path": "~/projects/demo-d3/lerobot_cache/hub/datasets--HuggingFaceVLA--libero/snapshots/86958911c0f959db2bbbdb107eb3e17c5f9c798e/data/chunk-000/file-375.parquet",
+      "sha256": "17f67296cfe910acd3c0425a9dec501959561385afdd34581048a890ddf762c1",
+      "matches_P0": true
+    }
+  ],
+  "free_bytes": 378119593984,
+  "free_GiB": 352.1513137817383,
+  "compute_process_count": 0,
+  "gpu_before": "Sun Oct 11 08:52:35 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 5080 ...    Off |   00000000:02:00.0 Off |                  N/A |\n| N/A   60C    P5             19W /  175W |      16MiB /  16303MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A            2363      G   /usr/lib/xorg/Xorg                        4MiB |\n+-----------------------------------------------------------------------------------------+",
+  "Xorg_display_excluded": true,
+  "code_sha256": {
+    "train_experiment.py": "450567275e68b59538fe32a17d52edc748805b10b17c1305da6fa694959836ed",
+    "eval_paired.py": "832182d0099846a1884cf5ff21cd17dbcca8d00c8196a5ad26adc33e2a218820",
+    "p1_runtime.py": "2cc8195086daca534bdb92215a1b815b041e4ba7a7a7b23790614bf06e993736",
+    "brightness_transform.py": "11337f808aa4f249f1cb37f18a55fcae6effa2532e1b993a7a09bd40219d5a33",
+    "subset_dataset.py": "7ffdd0fa5a7b6709279029649e60fbeaaa3af86f8a244dd348e3f0c2ab74df58",
+    "run_p2.py": "a73e076ebe2a08f1be4d5b41591ffba67a1e2cfaa442444e2e423529d9b9fbd6"
+  },
+  "HF_HUB_OFFLINE": "1"
+}

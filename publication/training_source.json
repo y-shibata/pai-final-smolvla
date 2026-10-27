@@ -1,0 +1,75 @@
+{
+  "source_summary": "p2/summary.json",
+  "source_summary_sha256": "448ca6314548707dd69d099b87d9ec0f853ead2dda24ca06a2708a5209536f32",
+  "times": [
+    {
+      "run_id": "R1N20",
+      "training_elapsed_seconds": 1932.5286609318573
+    },
+    {
+      "run_id": "R1N20B",
+      "training_elapsed_seconds": 1942.5567192719318
+    },
+    {
+      "run_id": "R1N10",
+      "training_elapsed_seconds": 1902.2854125560261
+    },
+    {
+      "run_id": "R1N46",
+      "training_elapsed_seconds": 1896.1603121908847
+    },
+    {
+      "run_id": "R2N20",
+      "training_elapsed_seconds": 1837.6635992741212
+    },
+    {
+      "run_id": "R2N20B",
+      "training_elapsed_seconds": 1839.679371287115
+    },
+    {
+      "run_id": "R2N10",
+      "training_elapsed_seconds": 1886.1489752000198
+    },
+    {
+      "run_id": "R2N46",
+      "training_elapsed_seconds": 1938.489973244723
+    },
+    {
+      "run_id": "R3N20",
+      "training_elapsed_seconds": 1795.3088578311726
+    },
+    {
+      "run_id": "R3N20B",
+      "training_elapsed_seconds": 1944.5497190547176
+    },
+    {
+      "run_id": "R3N10",
+      "training_elapsed_seconds": 1884.062342646066
+    },
+    {
+      "run_id": "R3N46",
+      "training_elapsed_seconds": 1845.7596528809518
+    }
+  ],
+  "count": 12,
+  "sum_seconds": 22645.193596369587,
+  "mean_seconds": 1887.0994663641322,
+  "mean_minutes": 31.451657772735537,
+  "display_minutes": 31,
+  "rounding": "nearest whole minute",
+  "loss_source": "p2/R1/N20/training.log",
+  "loss_source_sha256": "56000276be0d92b3e580173954e521afa9b2128b2745c9fb680ddded9823738e",
+  "crosschecked_against": "p2/R1/N20/steps.json",
+  "steps_sha256": "663f02392ecccf9684d7c8a61e438c71dff6764da6183f9824ff0a77afef1851",
+  "loss_rows": 1500,
+  "updates_first_last": [
+    20,
+    30000
+  ],
+  "sample_interval_updates": 20,
+  "smoothing": "none",
+  "loss_csv_sha256": "4369906b4543d179e001c3cb399f9a6a44c8b51b67f6dcab1749f7fdd3cc3c58",
+  "manifest_sha256": "f3130da8becde79fb594a55509f822da19296cfd05bd8c4e1556eac20e465198",
+  "task_index": 38,
+  "task": "pick up the black bowl from table center and place it on the plate"
+}

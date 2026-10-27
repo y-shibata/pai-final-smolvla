@@ -1,0 +1,46 @@
+{
+  "checked_date_jst": "2026-10-10",
+  "method": "Installed files and pinned local source; no external upload or new remote license query.",
+  "libero_distribution": "hf_libero 0.1.4",
+  "installed_code": {
+    "license": "MIT",
+    "path": "~/projects/demo-d3/.venv/lib/python3.12/site-packages/hf_libero-0.1.4.dist-info/licenses/LICENSE",
+    "sha256": "e2885fd30a08381b799c4a33385522b23d637b4051b8f9a7f9f2519944b68ff6",
+    "lines": "1-21",
+    "copyright": "Copyright (c) 2023 Lifelong Robot Learning"
+  },
+  "installed_dataset_statement": {
+    "license": "CC-BY-4.0",
+    "path": "~/projects/demo-d3/.venv/lib/python3.12/site-packages/hf_libero-0.1.4.dist-info/METADATA",
+    "sha256": "6d25b5291f67694912c8cb85690690652ec04203960f7ea1442ed6f7f0309422",
+    "lines": "229-233"
+  },
+  "matches_plan_code_and_data_labels": true,
+  "asset_directories": [
+    "articulated_objects",
+    "scenes",
+    "stable_hope_objects",
+    "stable_scanned_objects",
+    "textures",
+    "turbosquid_objects"
+  ],
+  "additional_asset_license_files_found": [],
+  "individual_mesh_texture_rights": "UNCONFIRMED: package-level code/data labels do not establish the provenance and redistribution terms of every bundled mesh or texture. Do not redistribute bundled assets.",
+  "hf_transformed_dataset_relationship": "UNCONFIRMED: plan records Apache-2.0 card versus upstream CC-BY-4.0; no additional evidence resolving that relationship.",
+  "smolvla_base_and_lora_redistribution": "UNCONFIRMED; do not publish weights. Cached snapshot contains only model/config/processor files and supplies no new license evidence.",
+  "new_license_differences": "No contradiction to the plan's MIT/CC-BY-4.0 labels. Installed distribution identified as hf_libero 0.1.4 (Hugging Face fork). Individual bundled asset terms remain unconfirmed.",
+  "public_package": "Original scripts/necessary patches, fixed source references, settings, episode lists, summary CSVs and reproduction instructions; not weights, datasets, cached assets, private logs, or evidence files.",
+  "third_party_code_copied_into_p0_helpers": false,
+  "notices_if_copied_later": [
+    {
+      "source": "LeRobot",
+      "required_notice_reference": "lerobot/LICENSE:1-201; relevant file headers; applicable bundled notices at 204 onward",
+      "notice": "Copyright 2024 The Hugging Face team; reviewed source headers Copyright 2025 The HuggingFace Inc. team; Apache-2.0"
+    },
+    {
+      "source": "LIBERO",
+      "required_notice_reference": "~/projects/demo-d3/.venv/lib/python3.12/site-packages/hf_libero-0.1.4.dist-info/licenses/LICENSE:1-21",
+      "notice": "Copyright (c) 2023 Lifelong Robot Learning; MIT permission notice"
+    }
+  ]
+}

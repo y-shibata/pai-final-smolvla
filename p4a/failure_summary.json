@@ -1,0 +1,299 @@
+{
+  "completed_at_utc": "2026-10-11T03:58:26.518955+00:00",
+  "primary_count": 97,
+  "reference_count": 9,
+  "primary_category_totals": {
+    "未把持": 32,
+    "持上げ後の脱落": 16,
+    "移動・設置未完了": 44,
+    "判別不能": 5,
+    "技術的不成立": 0
+  },
+  "unknown_rate_percent": 5.154639175257732,
+  "condition_model_counts": [
+    {
+      "condition": "clean",
+      "model": "N20",
+      "category": "未把持",
+      "count": 3,
+      "failure_total": 14,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "clean",
+      "model": "N20",
+      "category": "持上げ後の脱落",
+      "count": 3,
+      "failure_total": 14,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "clean",
+      "model": "N20",
+      "category": "移動・設置未完了",
+      "count": 8,
+      "failure_total": 14,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "clean",
+      "model": "N20",
+      "category": "判別不能",
+      "count": 0,
+      "failure_total": 14,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "clean",
+      "model": "N20",
+      "category": "技術的不成立",
+      "count": 0,
+      "failure_total": 14,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "clean",
+      "model": "N20B",
+      "category": "未把持",
+      "count": 7,
+      "failure_total": 17,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "clean",
+      "model": "N20B",
+      "category": "持上げ後の脱落",
+      "count": 5,
+      "failure_total": 17,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "clean",
+      "model": "N20B",
+      "category": "移動・設置未完了",
+      "count": 4,
+      "failure_total": 17,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "clean",
+      "model": "N20B",
+      "category": "判別不能",
+      "count": 1,
+      "failure_total": 17,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "clean",
+      "model": "N20B",
+      "category": "技術的不成立",
+      "count": 0,
+      "failure_total": 17,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "dim",
+      "model": "N20",
+      "category": "未把持",
+      "count": 5,
+      "failure_total": 11,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "dim",
+      "model": "N20",
+      "category": "持上げ後の脱落",
+      "count": 0,
+      "failure_total": 11,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "dim",
+      "model": "N20",
+      "category": "移動・設置未完了",
+      "count": 6,
+      "failure_total": 11,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "dim",
+      "model": "N20",
+      "category": "判別不能",
+      "count": 0,
+      "failure_total": 11,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "dim",
+      "model": "N20",
+      "category": "技術的不成立",
+      "count": 0,
+      "failure_total": 11,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "dim",
+      "model": "N20B",
+      "category": "未把持",
+      "count": 4,
+      "failure_total": 21,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "dim",
+      "model": "N20B",
+      "category": "持上げ後の脱落",
+      "count": 4,
+      "failure_total": 21,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "dim",
+      "model": "N20B",
+      "category": "移動・設置未完了",
+      "count": 12,
+      "failure_total": 21,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "dim",
+      "model": "N20B",
+      "category": "判別不能",
+      "count": 1,
+      "failure_total": 21,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "dim",
+      "model": "N20B",
+      "category": "技術的不成立",
+      "count": 0,
+      "failure_total": 21,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "bright",
+      "model": "N20",
+      "category": "未把持",
+      "count": 1,
+      "failure_total": 14,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "bright",
+      "model": "N20",
+      "category": "持上げ後の脱落",
+      "count": 3,
+      "failure_total": 14,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "bright",
+      "model": "N20",
+      "category": "移動・設置未完了",
+      "count": 8,
+      "failure_total": 14,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "bright",
+      "model": "N20",
+      "category": "判別不能",
+      "count": 2,
+      "failure_total": 14,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "bright",
+      "model": "N20",
+      "category": "技術的不成立",
+      "count": 0,
+      "failure_total": 14,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "bright",
+      "model": "N20B",
+      "category": "未把持",
+      "count": 12,
+      "failure_total": 20,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "bright",
+      "model": "N20B",
+      "category": "持上げ後の脱落",
+      "count": 1,
+      "failure_total": 20,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "bright",
+      "model": "N20B",
+      "category": "移動・設置未完了",
+      "count": 6,
+      "failure_total": 20,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "bright",
+      "model": "N20B",
+      "category": "判別不能",
+      "count": 1,
+      "failure_total": 20,
+      "evaluation_denominator": 60
+    },
+    {
+      "condition": "bright",
+      "model": "N20B",
+      "category": "技術的不成立",
+      "count": 0,
+      "failure_total": 20,
+      "evaluation_denominator": 60
+    }
+  ],
+  "reference_category_totals": {
+    "未把持": 9,
+    "持上げ後の脱落": 0,
+    "移動・設置未完了": 0,
+    "判別不能": 0,
+    "技術的不成立": 0
+  },
+  "unknown_trials": [
+    {
+      "run_id": "R1N20",
+      "condition": "bright",
+      "initial_state_index": 39,
+      "reason": "接触後にボウルが大きく傾き、50–57で手先から離れて卓上に戻る。保持して有効に持ち上げたのか、縁をはじいて傾けたのかを両視点でも確定できない。"
+    },
+    {
+      "run_id": "R1N20B",
+      "condition": "dim",
+      "initial_state_index": 36,
+      "reason": "接近区間で対象がわずかに動くが、44–59を拡大しても卓上での移動・傾きと短い持上げを区別できない。対象は卓上に残り、有効把持の有無を確定できない。"
+    },
+    {
+      "run_id": "R1N20B",
+      "condition": "bright",
+      "initial_state_index": 42,
+      "reason": "持上げは明瞭だが、皿付近96–100で対象が姿勢を変える際の支持面との接触が手先に隠れ、接地後の傾きか接地前の脱落かを区別できない。"
+    },
+    {
+      "run_id": "R2N20",
+      "condition": "bright",
+      "initial_state_index": 33,
+      "reason": "持上げと運搬は確認できるが、終盤235–245の対象の傾きが隣の器への接触後か、保持解除による脱落かを両視点から確定できない。"
+    },
+    {
+      "run_id": "R2N20B",
+      "condition": "clean",
+      "initial_state_index": 37,
+      "reason": "把持付近44–55で対象がわずかに傾くが、卓上での接触・ずれと短い持上げ後の離脱を両視点の連続フレームから区別できない。"
+    }
+  ],
+  "rule_sha256": "9ec05dcee88ae87385c5b165cc1e6a06693e771c3508d1c1a1cdf7f3d628333a",
+  "failure_labels_sha256": "070944197382ebea81ec88a30b452a161eb771560991055a653b4b561139241c",
+  "review_method": "one file at a time; two-camera overviews plus continuous event/approach frames; frozen rule unchanged",
+  "inter_rater_reliability": "not measured; single reviewer",
+  "stop_triggered": false
+}

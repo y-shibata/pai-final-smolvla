@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "trial": "R1N20B/dim/44",
+  "source_frame": 80,
+  "control_step": 80,
+  "source_raw80_seconds": 1.0,
+  "simulation_seconds": 4.0,
+  "clip_2x_seconds": 2.0,
+  "final_output_seconds": 75.0,
+  "final_output_frame": 2250,
+  "success_hold_starts_seconds": 75.1,
+  "output_frame_rule": "floor((60/30+1/60)*40)=80",
+  "crop_rgb_MAE_255": 1.4659597633136094,
+  "full_decode_frames": 5400,
+  "video_sha256": "ea5a7639d204841288868af0c91f5ead480d60d2f449fdd0a0e308d86347e2b1",
+  "duration_seconds": 180.0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "codec": "H.264",
+  "audio_tracks": 0
+}

@@ -1,0 +1,60 @@
+{
+  "trial": "R1N20/dim/44",
+  "source": "P3 saved frame metadata",
+  "mapping": [
+    {
+      "source_frame": 0,
+      "control_step": 0,
+      "raw_seconds": 0.0,
+      "simulation_seconds": 0.0,
+      "ideal_2x_seconds": 0.0,
+      "main_output_seconds": 73.0
+    },
+    {
+      "source_frame": 20,
+      "control_step": 20,
+      "raw_seconds": 0.25,
+      "simulation_seconds": 1.0,
+      "ideal_2x_seconds": 0.5,
+      "main_output_seconds": 73.5
+    },
+    {
+      "source_frame": 40,
+      "control_step": 40,
+      "raw_seconds": 0.5,
+      "simulation_seconds": 2.0,
+      "ideal_2x_seconds": 1.0,
+      "main_output_seconds": 74.0
+    },
+    {
+      "source_frame": 80,
+      "control_step": 80,
+      "raw_seconds": 1.0,
+      "simulation_seconds": 4.0,
+      "ideal_2x_seconds": 2.0,
+      "main_output_seconds": 75.0
+    },
+    {
+      "source_frame": 160,
+      "control_step": 160,
+      "raw_seconds": 2.0,
+      "simulation_seconds": 8.0,
+      "ideal_2x_seconds": 4.0,
+      "main_output_seconds": 77.0
+    },
+    {
+      "source_frame": 279,
+      "control_step": 279,
+      "raw_seconds": 3.4875,
+      "simulation_seconds": 13.95,
+      "ideal_2x_seconds": 6.975,
+      "main_output_seconds": 79.975
+    }
+  ],
+  "interval_end": {
+    "steps": 280,
+    "realtime_seconds": 14,
+    "double_seconds": 7
+  },
+  "output_sampling": "30fps; midpoint sampling from 40fps; no motion cuts; timing quantization <1/30 second"
+}

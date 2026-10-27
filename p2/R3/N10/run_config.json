@@ -1,0 +1,36 @@
+{
+  "scope": "p2",
+  "updates_requested": 30000,
+  "replicate": "R3",
+  "selection_seed": 303,
+  "training_seed": 20261013,
+  "augmentation_seed": 20262013,
+  "started_at_utc": "2026-10-11T00:25:45.133395+00:00",
+  "condition": "N10",
+  "selection_sha256": "df47ce11703755a94674d96bf42e5d128ec6fcb35ac9af41723b474dd37bb118",
+  "stats_sha256": "c9d66b2fb430490b3b4a39b1a05f5f6e1c12d14c6a62c6dd1d8277f2d450014d",
+  "base_file_sha256": "7cd549ac2351fb069c0ddb3c34ad2d09cfc92b56a15dccdfc2e41467aaca01eb",
+  "batch_size": 1,
+  "num_workers": 4,
+  "lora_r": 16,
+  "lora_alpha": 16,
+  "optimizer": {
+    "lr": 0.001,
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "eps": 1e-08,
+    "weight_decay": 1e-10,
+    "grad_clip_norm": 10
+  },
+  "scheduler": {
+    "warmup": 1000,
+    "decay_steps": 30000,
+    "peak_lr": 0.001,
+    "decay_lr": 0.0001
+  },
+  "chunk_size": 50,
+  "n_action_steps": 50,
+  "brightness_enabled": false
+}

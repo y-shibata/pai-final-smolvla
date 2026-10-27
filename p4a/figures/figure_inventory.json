@@ -1,0 +1,62 @@
+[
+  {
+    "name": "fig1_success_rates",
+    "png": {
+      "path": "p4a/figures/fig1_success_rates.png",
+      "sha256": "4bbd6439590dd92e080def7ebb6ca1ecf94de186f81c48472df2e5e2e20cc697"
+    },
+    "svg": {
+      "path": "p4a/figures/fig1_success_rates.svg",
+      "sha256": "d3f63ac7b3d9c1492454c033a78d92e1ba637c6dc37d35b805471e642f89c574"
+    },
+    "data": {
+      "path": "p4a/figures/data/fig1_success_rates.csv",
+      "sha256": "60719529a11e6d01784c9481b031306c1b8702d31a52fd07f6b07782e470c148"
+    }
+  },
+  {
+    "name": "fig2_primary_paired",
+    "png": {
+      "path": "p4a/figures/fig2_primary_paired.png",
+      "sha256": "efcc0436ce598efae9e46d6c9df62c42b1519984ccf3f75795588605f10028f9"
+    },
+    "svg": {
+      "path": "p4a/figures/fig2_primary_paired.svg",
+      "sha256": "4c24cbe4a46b99c063196197a08e83161fa116d041f568c244fcf9b2437f3913"
+    },
+    "data": {
+      "path": "p4a/figures/data/fig2_primary_paired.csv",
+      "sha256": "e681af8cfda70bd8300354228174ededa6646574bb56d0c2ca7d3b4cbef055ff"
+    }
+  },
+  {
+    "name": "fig3_failure_counts",
+    "png": {
+      "path": "p4a/figures/fig3_failure_counts.png",
+      "sha256": "71d59ffbf0c3961ef7a9e75a02176eb8a758daf5ad4cc77a4b308718ecf448cd"
+    },
+    "svg": {
+      "path": "p4a/figures/fig3_failure_counts.svg",
+      "sha256": "979eefd48f6fbe05d33ab13c2f2ce6f58de85ccd6bc84d4e27a474745ef77d87"
+    },
+    "data": {
+      "path": "p4a/figures/data/fig3_failure_counts.csv",
+      "sha256": "4a1019699f5c51f08257511b036d0b315b6e3a90c6992e35066f3ac8bf325a60"
+    }
+  },
+  {
+    "name": "fig4_demonstrations_clean",
+    "png": {
+      "path": "p4a/figures/fig4_demonstrations_clean.png",
+      "sha256": "83929be2b99ac0ab29a7214ae587eb6870f6a0e891c06ccd7f8b1af2966f435a"
+    },
+    "svg": {
+      "path": "p4a/figures/fig4_demonstrations_clean.svg",
+      "sha256": "868e962fe8de4b04f8392f1362dda3993ecee1e98843d5fe50a83766e7dd7298"
+    },
+    "data": {
+      "path": "p4a/figures/data/fig4_demonstrations_clean.csv",
+      "sha256": "f2ec9aef986650fe829c8645802abdc5afb22d0d4d27351209119598469246de"
+    }
+  }
+]

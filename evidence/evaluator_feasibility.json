@@ -1,0 +1,60 @@
+{
+  "status": "STATIC_REVIEW_COMPLETE_NOT_EXECUTED",
+  "items": [
+    {
+      "requirement": "explicit_state_index",
+      "source_lines": "envs/libero.py:124,165-175,339-346,419-438",
+      "implementation": "Pass episode_index=30..39 or 40..49 to explicitly constructed LiberoEnv factories. Default _make_env_fns starts at zero, so seed-only or the unmodified CLI does not implement the final-state selection."
+    },
+    {
+      "requirement": "fresh_environment_per_model_condition_wave",
+      "source_lines": "envs/libero.py:393-400,419-438,445-456; envs/utils.py:312-315",
+      "implementation": "Build and close a new vector environment for each wave/model/image condition; do not reuse reset counters."
+    },
+    {
+      "requirement": "hard_reset",
+      "source_lines": "envs/libero.py:131,164,267-274; envs/configs.py:415-423",
+      "implementation": "Forward hard_reset=True to the underlying environment."
+    },
+    {
+      "requirement": "settling_10_steps",
+      "source_lines": "envs/libero.py:127,162,348-352",
+      "implementation": "num_steps_wait=10 executes dummy actions after state assignment."
+    },
+    {
+      "requirement": "20_hz",
+      "source_lines": "envs/libero.py:128,163,267-274; envs/configs.py:325,421",
+      "implementation": "control_freq=20. Dataset metadata fps=10 is a separate property; preserve the planned evaluation frequency."
+    },
+    {
+      "requirement": "280_step_limit",
+      "source_lines": "envs/libero.py:98-103,188-193; scripts/lerobot_eval.py:263,272",
+      "implementation": "Spatial task limit is 280; loop exits on all done or limit."
+    },
+    {
+      "requirement": "success_check",
+      "source_lines": "envs/libero.py:374-384; installed libero/libero/envs/env_wrapper.py:103-104",
+      "implementation": "check_success delegates to LIBERO _check_success; retain the saved success flags and avoid redefining success."
+    },
+    {
+      "requirement": "policy_seed",
+      "source_lines": "scripts/lerobot_eval.py:748; utils/random_utils.py:171-183; scripts/lerobot_eval.py:528-543",
+      "implementation": "set_seed controls Python/NumPy/torch RNG; environment seed list is separate. P1 must reseed after model construction and before each paired wave, with identical ordering."
+    },
+    {
+      "requirement": "save_all_videos",
+      "source_lines": "scripts/lerobot_eval.py:485-493,590-612,786",
+      "implementation": "The helper supports max_episodes_rendered; CLI defaults to 10. For each fresh 10-environment wave set 10 and use a distinct directory; save 20 trials across two waves. Correct render_fps=80 metadata to the planned 20 Hz timebase in the custom recorder."
+    },
+    {
+      "requirement": "brightness_eval_hook",
+      "source_lines": "scripts/lerobot_eval.py:274,289-293; envs/utils.py:99-102; policies/smolvla/processor_smolvla.py:65-76",
+      "implementation": "Insert transformation on the two observation.images keys after env_preprocessor and before policy preprocessor. Inputs are float32 RGB [0,1]. Leave state/action/task unchanged."
+    },
+    {
+      "requirement": "brightness_train_hook",
+      "source_lines": "scripts/lerobot_train.py:128-139; policies/smolvla/processor_smolvla.py:65-76",
+      "implementation": "Insert after uint8-to-float conversion/rename and before preprocessor; or add one saved ProcessorStep before tokenization/device/normalization. Reuse the path during evaluation. Two-camera factor equality and separate augmentation RNG require P1 implementation/tests."
+    }
+  ]
+}
